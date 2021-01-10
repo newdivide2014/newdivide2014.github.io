@@ -1,112 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 沙普奶夫</title>
-    <link>https://newdivide2014.github.io/tags/</link>
-    <description>Recent content in Tags on 沙普奶夫</description>
+    <title>Tags on 沙普氖富的水塘</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on 沙普氖富的水塘</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate>
-    
-	<atom:link href="https://newdivide2014.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>zh</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>green</title>
-      <link>https://newdivide2014.github.io/tags/green/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <title>css</title>
+      <link>/tags/css/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/tags/green/</guid>
+      <guid>/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tree</title>
-      <link>https://newdivide2014.github.io/tags/tree/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <title>html</title>
+      <link>/tags/html/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/tags/tree/</guid>
+      <guid>/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>thumb</title>
-      <link>https://newdivide2014.github.io/tags/thumb/</link>
-      <pubDate>Sun, 12 Jan 2020 12:14:34 +0600</pubDate>
+      <title>markdown</title>
+      <link>/tags/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/tags/thumb/</guid>
+      <guid>/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>top</title>
-      <link>https://newdivide2014.github.io/tags/top/</link>
-      <pubDate>Sun, 12 Jan 2020 12:14:34 +0600</pubDate>
+      <title>themes</title>
+      <link>/tags/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/tags/top/</guid>
+      <guid>/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>video</title>
-      <link>https://newdivide2014.github.io/tags/video/</link>
-      <pubDate>Sun, 12 Jan 2020 12:14:34 +0600</pubDate>
+      <title>text</title>
+      <link>/tags/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/tags/video/</guid>
+      <guid>/tags/text/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>book</title>
-      <link>https://newdivide2014.github.io/tags/book/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <title>emoji</title>
+      <link>/tags/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/tags/book/</guid>
+      <guid>/tags/emoji/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>inspire</title>
-      <link>https://newdivide2014.github.io/tags/inspire/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <title>可爱</title>
+      <link>/tags/%E5%8F%AF%E7%88%B1/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/tags/inspire/</guid>
+      <guid>/tags/%E5%8F%AF%E7%88%B1/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>memo</title>
-      <link>https://newdivide2014.github.io/tags/memo/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <title>狗狗</title>
+      <link>/tags/%E7%8B%97%E7%8B%97/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/tags/memo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nature</title>
-      <link>https://newdivide2014.github.io/tags/nature/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://newdivide2014.github.io/tags/nature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>new</title>
-      <link>https://newdivide2014.github.io/tags/new/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://newdivide2014.github.io/tags/new/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nice</title>
-      <link>https://newdivide2014.github.io/tags/nice/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://newdivide2014.github.io/tags/nice/</guid>
+      <guid>/tags/%E7%8B%97%E7%8B%97/</guid>
       <description></description>
     </item>
     

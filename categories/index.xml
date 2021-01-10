@@ -1,58 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 沙普奶夫</title>
-    <link>https://newdivide2014.github.io/categories/</link>
-    <description>Recent content in Categories on 沙普奶夫</description>
+    <title>Categories on 沙普氖富的水塘</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on 沙普氖富的水塘</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate>
-    
-	<atom:link href="https://newdivide2014.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>zh</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Green Tree</title>
-      <link>https://newdivide2014.github.io/categories/green-tree/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <title>syntax</title>
+      <link>/categories/syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/categories/green-tree/</guid>
+      <guid>/categories/syntax/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>nature</title>
-      <link>https://newdivide2014.github.io/categories/nature/</link>
-      <pubDate>Sun, 12 Jan 2020 12:14:34 +0600</pubDate>
+      <title>themes</title>
+      <link>/categories/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/categories/nature/</guid>
+      <guid>/categories/themes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>inspire</title>
-      <link>https://newdivide2014.github.io/categories/inspire/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <title>可爱的小狗狗</title>
+      <link>/categories/%E5%8F%AF%E7%88%B1%E7%9A%84%E5%B0%8F%E7%8B%97%E7%8B%97/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://newdivide2014.github.io/categories/inspire/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tree</title>
-      <link>https://newdivide2014.github.io/categories/tree/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://newdivide2014.github.io/categories/tree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>writing</title>
-      <link>https://newdivide2014.github.io/categories/writing/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://newdivide2014.github.io/categories/writing/</guid>
+      <guid>/categories/%E5%8F%AF%E7%88%B1%E7%9A%84%E5%B0%8F%E7%8B%97%E7%8B%97/</guid>
       <description></description>
     </item>
     
