@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 卡斯学习</title>
+    <title>Tags on Just do IT, u known it</title>
     <link>https://newdivide2014.github.io/tags/</link>
-    <description>Recent content in Tags on 卡斯学习</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 10 Jan 2021 22:28:38 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>jane</title>
-      <link>https://newdivide2014.github.io/tags/jane/</link>
-      <pubDate>Sun, 10 Jan 2021 22:28:38 +0800</pubDate>
-      
-      <guid>https://newdivide2014.github.io/tags/jane/</guid>
-      <description></description>
-    </item>
-    
+    <description>Recent content in Tags on Just do IT, u known it</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://newdivide2014.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
