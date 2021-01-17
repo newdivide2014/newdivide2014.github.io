@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Just do IT, u known it</title>
+    <link>https://newdivide2014.github.io/en/categories/</link>
+    <description>Recent content in Categories on Just do IT, u known it</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 16 Jan 2021 21:17:37 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>https://newdivide2014.github.io/en/categories/test/</link>
+      <pubDate>Sat, 16 Jan 2021 21:17:37 +0800</pubDate>
+      
+      <guid>https://newdivide2014.github.io/en/categories/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
