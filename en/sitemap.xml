@@ -9,13 +9,6 @@
   </url>
   
   <url>
-    <loc>https://newdivide2014.github.io/en/</loc>
-    <lastmod>2021-01-16T21:17:37+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://newdivide2014.github.io/en/post/</loc>
     <lastmod>2021-01-16T21:17:37+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -45,6 +38,13 @@
   
   <url>
     <loc>https://newdivide2014.github.io/en/categories/test/</loc>
+    <lastmod>2021-01-16T21:17:37+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/en/</loc>
     <lastmod>2021-01-16T21:17:37+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
