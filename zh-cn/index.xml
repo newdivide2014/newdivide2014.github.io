@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>嘟囔</title>
-    <link>https://newdivide2014.github.io/</link>
-    <description>Recent content on 嘟囔</description>
+    <title>Zh-cns on 嘟囔</title>
+    <link>https://newdivide2014.github.io/zh-cn/</link>
+    <description>Recent content in Zh-cns on 嘟囔</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 11 Apr 2021 20:12:03 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Apr 2021 20:12:03 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux tar备忘</title>
       <link>https://newdivide2014.github.io/zh-cn/post/linux-tar-cmd/</link>
@@ -23,15 +23,6 @@
       
       <guid>https://newdivide2014.github.io/zh-cn/post/rs485-rs232/</guid>
       <description>RS485和RS232 RS232标准诞生于RS485之前，但RS232有几处不足的地方： 接口的信号电平值较高，达到时机伏，使用不当容易损坏接口芯片，电平标准也与TTL电平不兼容。 传输速率有局限，不可以</description>
-    </item>
-    
-    <item>
-      <title>关于我</title>
-      <link>https://newdivide2014.github.io/about/</link>
-      <pubDate>Sat, 16 Jan 2021 20:24:25 +0800</pubDate>
-      
-      <guid>https://newdivide2014.github.io/about/</guid>
-      <description>本页正在建设中鸭～</description>
     </item>
     
     <item>

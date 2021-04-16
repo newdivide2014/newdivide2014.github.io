@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RS485 on 卡卡💳</title>
+    <title>RS485 on 嘟囔</title>
     <link>https://newdivide2014.github.io/tags/rs485/</link>
-    <description>Recent content in RS485 on 卡卡💳</description>
+    <description>Recent content in RS485 on 嘟囔</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
     <lastBuildDate>Sat, 16 Jan 2021 21:17:37 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/tags/rs485/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RS485和RS232区别</title>
-      <link>https://newdivide2014.github.io/post/rs485-rs232/</link>
+      <link>https://newdivide2014.github.io/zh-cn/post/rs485-rs232/</link>
       <pubDate>Sat, 16 Jan 2021 21:17:37 +0800</pubDate>
       
-      <guid>https://newdivide2014.github.io/post/rs485-rs232/</guid>
-      <description>RS485和RS232 RS232标准诞生于RS485之前，但RS232有几处不足的地方： 接口的信号电平值较高，达到时机伏，使用不当容易损坏接</description>
+      <guid>https://newdivide2014.github.io/zh-cn/post/rs485-rs232/</guid>
+      <description>RS485和RS232 RS232标准诞生于RS485之前，但RS232有几处不足的地方： 接口的信号电平值较高，达到时机伏，使用不当容易损坏接口芯片，电平标准也与TTL电平不兼容。 传输速率有局限，不可以</description>
     </item>
     
   </channel>

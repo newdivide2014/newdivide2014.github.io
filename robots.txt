@@ -1,2 +1,3 @@
 User-agent: *
+
 Sitemap: https://newdivide2014.github.io/sitemap.xml
