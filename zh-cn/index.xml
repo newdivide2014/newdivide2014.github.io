@@ -4,33 +4,36 @@
     <title>Zh-cns on 嘟囔</title>
     <link>https://newdivide2014.github.io/zh-cn/</link>
     <description>Recent content in Zh-cns on 嘟囔</description>
+    <image>
+      <url>https://newdivide2014.github.io/papermod-cover.png</url>
+      <link>https://newdivide2014.github.io/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
     <lastBuildDate>Sun, 11 Apr 2021 20:12:03 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux tar备忘</title>
-      <link>https://newdivide2014.github.io/zh-cn/post/linux-tar-cmd/</link>
+      <link>https://newdivide2014.github.io/zh-cn/posts/linux-tar-cmd/</link>
       <pubDate>Sun, 11 Apr 2021 20:12:03 +0800</pubDate>
       
-      <guid>https://newdivide2014.github.io/zh-cn/post/linux-tar-cmd/</guid>
-      <description>话不多说，献上狗子~ 将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！</description>
+      <guid>https://newdivide2014.github.io/zh-cn/posts/linux-tar-cmd/</guid>
+      <description>Linux tar备忘</description>
     </item>
     
     <item>
       <title>RS485和RS232区别</title>
-      <link>https://newdivide2014.github.io/zh-cn/post/rs485-rs232/</link>
+      <link>https://newdivide2014.github.io/zh-cn/posts/rs485-rs232/</link>
       <pubDate>Sat, 16 Jan 2021 21:17:37 +0800</pubDate>
       
-      <guid>https://newdivide2014.github.io/zh-cn/post/rs485-rs232/</guid>
-      <description>RS485和RS232 RS232标准诞生于RS485之前，但RS232有几处不足的地方： 接口的信号电平值较高，达到时机伏，使用不当容易损坏接口芯片，电平标准也与TTL电平不兼容。 传输速率有局限，不可以</description>
+      <guid>https://newdivide2014.github.io/zh-cn/posts/rs485-rs232/</guid>
+      <description>RS485和RS232区别</description>
     </item>
     
     <item>
       <title>沉迷换肤</title>
-      <link>https://newdivide2014.github.io/zh-cn/post/change-theme/</link>
+      <link>https://newdivide2014.github.io/zh-cn/posts/change-theme/</link>
       <pubDate>Sun, 10 Jan 2021 22:28:38 +0800</pubDate>
       
-      <guid>https://newdivide2014.github.io/zh-cn/post/change-theme/</guid>
+      <guid>https://newdivide2014.github.io/zh-cn/posts/change-theme/</guid>
       <description>累 我可能是得了主题病阿！一天换了十几个主题～换的我是真的好累啊。。。 已经被炸干了。。。 好累～🐶</description>
     </item>
     
