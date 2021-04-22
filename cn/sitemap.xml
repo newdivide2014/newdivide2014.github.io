@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://newdivide2014.github.io/categories/</loc>
+    <lastmod>2021-04-11T20:12:03+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://newdivide2014.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://newdivide2014.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/tags/linux-cmd/</loc>
+    <lastmod>2021-04-11T20:12:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/categories/linux-cmd/</loc>
+    <lastmod>2021-04-11T20:12:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/zh-cn/posts/linux-tar-cmd/</loc>
+    <lastmod>2021-04-11T20:12:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/tags/</loc>
+    <lastmod>2021-04-11T20:12:03+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://newdivide2014.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://newdivide2014.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/zh-cn/</loc>
+    <lastmod>2021-04-11T20:12:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/</loc>
+    <lastmod>2021-04-11T20:12:03+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://newdivide2014.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://newdivide2014.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/tags/rs232/</loc>
+    <lastmod>2021-01-16T21:17:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/tags/rs485/</loc>
+    <lastmod>2021-01-16T21:17:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/zh-cn/posts/rs485-rs232/</loc>
+    <lastmod>2021-01-16T21:17:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2021-01-16T21:17:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/about/</loc>
+    <lastmod>2021-01-16T20:24:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/tags/hugo-theme/</loc>
+    <lastmod>2021-01-10T22:28:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/categories/hugo-theme/</loc>
+    <lastmod>2021-01-10T22:28:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/zh-cn/posts/change-theme/</loc>
+    <lastmod>2021-01-10T22:28:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://newdivide2014.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://newdivide2014.github.io/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://newdivide2014.github.io/en/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://newdivide2014.github.io/archives/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://newdivide2014.github.io/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://newdivide2014.github.io/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://newdivide2014.github.io/search/"
+                />
+  </url>
+  
+</urlset>
