@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ToughMn</title>
+    <link>https://newdivide2014.github.io/en/posts/</link>
+    <description>Recent content in Posts on ToughMn</description>
+    <image>
+      <url>https://newdivide2014.github.io/papermod-cover.png</url>
+      <link>https://newdivide2014.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 21 Apr 2021 11:24:25 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test post</title>
+      <link>https://newdivide2014.github.io/en/posts/abcde/</link>
+      <pubDate>Wed, 21 Apr 2021 11:24:25 +0800</pubDate>
+      
+      <guid>https://newdivide2014.github.io/en/posts/abcde/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+  </channel>
+</rss>

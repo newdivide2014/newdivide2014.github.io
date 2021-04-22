@@ -4,8 +4,11 @@
     <title>Tags on 嘟囔</title>
     <link>https://newdivide2014.github.io/tags/</link>
     <description>Recent content in Tags on 嘟囔</description>
+    <image>
+      <url>https://newdivide2014.github.io/papermod-cover.png</url>
+      <link>https://newdivide2014.github.io/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
     <lastBuildDate>Sun, 11 Apr 2021 20:12:03 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux cmd</title>
@@ -31,6 +34,15 @@
       <pubDate>Sat, 16 Jan 2021 21:17:37 +0800</pubDate>
       
       <guid>https://newdivide2014.github.io/tags/rs485/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://newdivide2014.github.io/tags/git/</link>
+      <pubDate>Sat, 16 Jan 2021 20:30:40 +0800</pubDate>
+      
+      <guid>https://newdivide2014.github.io/tags/git/</guid>
       <description></description>
     </item>
     

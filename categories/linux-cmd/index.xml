@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux cmd on 嘟囔</title>
+    <link>https://newdivide2014.github.io/categories/linux-cmd/</link>
+    <description>Recent content in linux cmd on 嘟囔</description>
+    <image>
+      <url>https://newdivide2014.github.io/papermod-cover.png</url>
+      <link>https://newdivide2014.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 11 Apr 2021 20:12:03 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/categories/linux-cmd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux tar备忘</title>
+      <link>https://newdivide2014.github.io/zh-cn/posts/linux-tar-cmd/</link>
+      <pubDate>Sun, 11 Apr 2021 20:12:03 +0800</pubDate>
+      
+      <guid>https://newdivide2014.github.io/zh-cn/posts/linux-tar-cmd/</guid>
+      <description>Linux tar备忘</description>
+    </item>
+    
+  </channel>
+</rss>
