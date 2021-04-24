@@ -9,7 +9,16 @@
       <link>https://newdivide2014.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 11 Apr 2021 20:12:03 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Apr 2021 22:53:56 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>qt程序在多屏下显示不全的问题</title>
+      <link>https://newdivide2014.github.io/zh-cn/posts/qt-ui-center-show/</link>
+      <pubDate>Sat, 24 Apr 2021 22:53:56 +0800</pubDate>
+      
+      <guid>https://newdivide2014.github.io/zh-cn/posts/qt-ui-center-show/</guid>
+      <description>qt程序在多屏下显示不全的问题</description>
+    </item>
+    
     <item>
       <title>Linux tar备忘</title>
       <link>https://newdivide2014.github.io/zh-cn/posts/linux-tar-cmd/</link>
