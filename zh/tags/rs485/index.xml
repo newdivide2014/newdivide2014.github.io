@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>RS485 on 嘟囔的博客</title>
+    <link>https://newdivide2014.github.io/zh/tags/rs485/</link>
+    <description>Recent content in RS485 on 嘟囔的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>newdivid7037@gmail.com (嘟囔)</managingEditor>
+    <webMaster>newdivid7037@gmail.com (嘟囔)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 16 Jan 2021 21:17:37 +0800</lastBuildDate>
+    <sy:updatePeriod>monthly</sy:updatePeriod>
+    
+        <atom:link href="https://newdivide2014.github.io/zh/tags/rs485/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>RS485和RS232区别</title>
+        <link>https://newdivide2014.github.io/zh/posts/rs485-rs232/</link>
+        <pubDate>Sat, 16 Jan 2021 21:17:37 +0800</pubDate>
+        <author>newdivid7037@gmail.com (嘟囔)</author>
+        <atom:modified>Sat, 16 Jan 2021 21:17:37 +0800</atom:modified>
+        <guid>https://newdivide2014.github.io/zh/posts/rs485-rs232/</guid>
+        <description>RS485和RS232 RS232标准诞生于RS485之前，但RS232有几处不足的地方： 接口的信号电平值较高，达到时机伏，使用不当容易损坏接</description>
+        
+        <dc:creator>嘟囔</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>RS485</category>
+            
+          
+            
+              <category>RS232</category>
+            
+          
+        
+        
+          
+            
+              <category>硬件相关</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
