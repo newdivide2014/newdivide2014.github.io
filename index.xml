@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>嘟囔</title>
     <link>https://newdivide2014.github.io/</link>
     <description>Recent content on 嘟囔</description>
     <image>
-      <url>https://newdivide2014.github.io/papermod-cover.png</url>
-      <link>https://newdivide2014.github.io/papermod-cover.png</link>
+      <url>https://newdivide2014.github.io/author.jpg</url>
+      <link>https://newdivide2014.github.io/author.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 24 Apr 2021 22:53:56 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -25,7 +25,8 @@
       <pubDate>Sun, 11 Apr 2021 20:12:03 +0800</pubDate>
       
       <guid>https://newdivide2014.github.io/posts/linux-tar-cmd/</guid>
-      <description>Linux tar备忘</description>
+      <description>将 /etc/ 内的所有档案备份下来，并且保存其权限！
+[root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！</description>
     </item>
     
     <item>
@@ -43,16 +44,17 @@
       <pubDate>Sat, 16 Jan 2021 20:30:40 +0800</pubDate>
       
       <guid>https://newdivide2014.github.io/posts/git-cmd/</guid>
-      <description>Git常用命令</description>
+      <description>git常用命令</description>
     </item>
     
     <item>
-      <title>关于我</title>
+      <title></title>
       <link>https://newdivide2014.github.io/about/</link>
       <pubDate>Sat, 16 Jan 2021 20:24:25 +0800</pubDate>
       
       <guid>https://newdivide2014.github.io/about/</guid>
-      <description>自我介绍</description>
+      <description>2021年计划
+ 养只可爱的小猫咪（这个可能实现不了啊，因为放假了怎么办还没想好） 学会网球🎾  </description>
     </item>
     
     <item>
