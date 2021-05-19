@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>linux on 嘟囔</title>
+    <link>https://newdivide2014.github.io/zh/categories/linux/</link>
+    <description>Recent content in linux on 嘟囔</description>
+    <image>
+      <url>https://newdivide2014.github.io/author.jpg</url>
+      <link>https://newdivide2014.github.io/author.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 11 May 2021 10:23:30 +0800</lastBuildDate><atom:link href="https://newdivide2014.github.io/zh/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SIOCSIFFLAGS: Operation Not Possible Due to RF Kill</title>
+      <link>https://newdivide2014.github.io/zh/posts/operation-not-possible-due-to-rf-kill/</link>
+      <pubDate>Tue, 11 May 2021 10:23:30 +0800</pubDate>
+      
+      <guid>https://newdivide2014.github.io/zh/posts/operation-not-possible-due-to-rf-kill/</guid>
+      <description>问题描述 报错信息：SIOCSIFFLAGS: Operation not possible due to RF-kill 我想让一块无线网卡up起来，结果没想到报错了 1 2 [root@localhost opt]# ifconfig wls35u1 up SIOCSIFFLAGS: Operation not possible due to RF-kill 查了一下，R</description>
+    </item>
+    
+  </channel>
+</rss>
