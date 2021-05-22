@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://newdivide2014.github.io/en/posts/</loc>
-    <lastmod>2021-04-21T11:24:25+08:00</lastmod>
+    <lastmod>2021-05-11T21:42:29+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://newdivide2014.github.io/en/tags/</loc>
-    <lastmod>2021-04-21T11:24:25+08:00</lastmod>
+    <lastmod>2021-05-11T21:42:29+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -29,10 +29,23 @@
                 />
   </url><url>
     <loc>https://newdivide2014.github.io/en/tags/test/</loc>
-    <lastmod>2021-04-21T11:24:25+08:00</lastmod>
+    <lastmod>2021-05-11T21:42:29+08:00</lastmod>
   </url><url>
     <loc>https://newdivide2014.github.io/en/posts/abcde/</loc>
-    <lastmod>2021-04-21T11:24:25+08:00</lastmod>
+    <lastmod>2021-05-11T21:42:29+08:00</lastmod>
+  </url><url>
+    <loc>https://newdivide2014.github.io/en/</loc>
+    <lastmod>2021-05-11T21:42:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://newdivide2014.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://newdivide2014.github.io/en/"
+                />
   </url><url>
     <loc>https://newdivide2014.github.io/en/about/</loc>
     <lastmod>2021-01-16T20:24:25+08:00</lastmod>
@@ -47,31 +60,8 @@
                 href="https://newdivide2014.github.io/en/about/"
                 />
   </url><url>
-    <loc>https://newdivide2014.github.io/en/</loc>
-    <lastmod>2020-01-26T04:15:05+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://newdivide2014.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://newdivide2014.github.io/en/"
-                />
-  </url><url>
-    <loc>https://newdivide2014.github.io/en/archive/</loc>
-    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://newdivide2014.github.io/zh/archive/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://newdivide2014.github.io/en/archive/"
-                />
+    <loc>https://newdivide2014.github.io/en/archives/</loc>
+    <lastmod>2021-05-21T12:48:14+08:00</lastmod>
   </url><url>
     <loc>https://newdivide2014.github.io/en/categories/</loc>
     <xhtml:link
@@ -85,16 +75,7 @@
                 href="https://newdivide2014.github.io/en/categories/"
                 />
   </url><url>
-    <loc>https://newdivide2014.github.io/en/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://newdivide2014.github.io/zh/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://newdivide2014.github.io/en/series/"
-                />
+    <loc>https://newdivide2014.github.io/en/search/</loc>
+    <lastmod>2021-05-21T12:48:14+08:00</lastmod>
   </url>
 </urlset>

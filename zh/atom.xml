@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">嘟囔</title>
+    <subtitle type="html">嘟囔的学习小站</subtitle>
+    <updated>2021-05-22T18:51:32&#43;08:00</updated>
+    <id>https://newdivide2014.github.io/zh/</id>
+    <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
+    <author>
+            <name>嘟囔</name>
+            <uri>https://newdivide2014.github.io/zh/</uri>
+            
+                <email>newdivide7037@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
+        <entry>
+            <title type="text">英语语法粗记</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/english-grammer/" />
+            <id>https://newdivide2014.github.io/zh/posts/english-grammer/</id>
+            <updated>2021-05-22T18:26:39&#43;08:00</updated>
+            <published>2021-05-22T18:26:39&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">刘晓艳的语法课笔记</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/english/" term="English" label="English" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/" term="英语语法" label="英语语法" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">windows上QtCreator经常未响应崩溃</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/windows-qtcreator-crush/" />
+            <id>https://newdivide2014.github.io/zh/posts/windows-qtcreator-crush/</id>
+            <updated>2021-05-11T10:39:18&#43;08:00</updated>
+            <published>2021-05-11T10:39:18&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">有道词典，滑词取词功能与QtCreator冲突，取消滑词取词功能，或直接退出有道词典！坑！</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/qt/" term="qt" label="qt" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/qt/" term="qt" label="qt" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/qtcreator/" term="qtcreator" label="qtcreator" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">SIOCSIFFLAGS: Operation Not Possible Due to RF Kill</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/operation-not-possible-due-to-rf-kill/" />
+            <id>https://newdivide2014.github.io/zh/posts/operation-not-possible-due-to-rf-kill/</id>
+            <updated>2021-05-11T10:23:30&#43;08:00</updated>
+            <published>2021-05-11T10:23:30&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">问题描述 报错信息：SIOCSIFFLAGS: Operation not possible due to RF-kill 我想让一块无线网卡up起来，结果没想到报错了 1 2 [root@localhost opt]# ifconfig wls35u1 up SIOCSIFFLAGS: Operation not possible due to RF-kill 查了一下，RF-KILL是一个打开和关闭无线设备的工具。 所以这是一打开无线设备（wifi）的错误。 解决办法 查看所有无线设备当前状态 1 2 3 4 5 6 [root@localhost opt]# rfkill list all 2: phy2: Wireless LAN Soft blocked: yes Hard blocked: no # 可以看出Hard blocked和 software blocked之间的同步失败 解锁设备 1 2 3 4 5 6 7 # 解锁所有wi……</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="linux" label="linux" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/wifi/" term="wifi" label="wifi" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/rf-kill/" term="RF-kill" label="RF-kill" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">我戒指呢</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/lose-my-ring/" />
+            <id>https://newdivide2014.github.io/zh/posts/lose-my-ring/</id>
+            <updated>2021-05-10T09:55:52&#43;08:00</updated>
+            <published>2021-05-08T17:30:52&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">唉，该说什么好呢。。。wtf 今天我把自己的戒指弄丢了。。。 早上上班嫌戒指卡的肉肉疼，就往下扒拉了扒拉，直到中午吃完饭溜达完了， 一屁股做到凳子上，发现手上少点啥。。 妈蛋的，我戒指呢我戒指呢。。。 搞的我一下午也干不进去活。。 这真是倒霉透了！今天拿到了钥匙终于进了家却把戒指丢了。 我真是服了我自己了。 烦躁。。都是钱啊。嘤嘤嘤。裂开。落泪。😭😭😭 去年五一当天发的年终奖，今天只发了工资，我还能说啥。。。 活干的……</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/%E6%88%92%E6%8C%87/" term="戒指" label="戒指" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">RS232针脚（8 pin）含义</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/rs232-8pin/" />
+            <id>https://newdivide2014.github.io/zh/posts/rs232-8pin/</id>
+            <updated>2021-05-08T10:51:45&#43;08:00</updated>
+            <published>2021-05-08T10:51:45&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">管脚 缩写 英文释义 中文释义 1 CD Carrier Detect 载波检测 2 RXD Receive Data 接收 3 TXD Transmit Data 发送 4 DTR Data Terminal Ready 数据终端就绪 5 GND System Ground 系统接地 6 DSR Data Set Ready 数据设备就绪 7 RTS Clear To Send 允许发送</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/" term="硬件相关" label="硬件相关" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/rs232/" term="RS232" label="RS232" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">qt程序在多屏下显示不全的问题</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/qt-ui-center-show/" />
+            <id>https://newdivide2014.github.io/zh/posts/qt-ui-center-show/</id>
+            <updated>2021-05-21T12:48:14&#43;08:00</updated>
+            <published>2021-04-24T22:53:56&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">qt程序在多屏下显示不全的问题</summary>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/qt/" term="qt" label="qt" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Linux tar备忘</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/linux-tar-cmd/" />
+            <id>https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</id>
+            <updated>2021-04-11T20:12:03&#43;08:00</updated>
+            <published>2021-04-11T20:12:03&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux-cmd/" term="linux cmd" label="linux cmd" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/linux-cmd/" term="linux cmd" label="linux cmd" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">RS485和RS232区别</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/rs485-rs232/" />
+            <id>https://newdivide2014.github.io/zh/posts/rs485-rs232/</id>
+            <updated>2021-01-16T21:17:37&#43;08:00</updated>
+            <published>2021-01-16T21:17:37&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">RS485和RS232区别</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/" term="硬件相关" label="硬件相关" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/rs485/" term="RS485" label="RS485" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/rs232/" term="RS232" label="RS232" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">git常用命令</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/git-cmd/" />
+            <id>https://newdivide2014.github.io/zh/posts/git-cmd/</id>
+            <updated>2021-04-21T12:46:20&#43;08:00</updated>
+            <published>2021-01-16T20:30:40&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">git常用命令</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/git/" term="git" label="git" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/git/" term="git" label="git" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">沉迷换肤</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/change-theme/" />
+            <id>https://newdivide2014.github.io/zh/posts/change-theme/</id>
+            <updated>2021-01-10T22:28:38&#43;08:00</updated>
+            <published>2021-01-10T22:28:38&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">我可能是得了主题病阿！一天换了十几个主题～换的我是真的好累啊。。。 已经被炸干了。。。 好累～🐶 把主题又换成了papermod。。。</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/hugo-theme/" term="hugo theme" label="hugo theme" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/hugo-theme/" term="hugo theme" label="hugo theme" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">华为交换机一些命令及回显信息</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/huawei-switch/" />
+            <id>https://newdivide2014.github.io/zh/posts/huawei-switch/</id>
+            <updated>2021-05-21T12:48:14&#43;08:00</updated>
+            <published>2020-11-23T16:14:12&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">华为交换机一些命令及回显信息</summary>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/%E5%8D%8E%E4%B8%BA/" term="华为" label="华为" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/" term="交换机" label="交换机" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>
