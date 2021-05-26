@@ -10,7 +10,7 @@
         <title>嘟囔</title>
         <link>https://newdivide2014.github.io/zh/</link>
         <description>嘟囔的学习小站</description>
-        <generator>Hugo 0.82.1 https://gohugo.io/</generator>
+        <generator>Hugo 0.82.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,10 +23,55 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 25 May 2021 01:03:27 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 26 May 2021 19:51:38 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
+        
+            <item>
+                <title>Windows Server 2008 CVE20170144验证</title>
+                <link>https://newdivide2014.github.io/zh/posts/win-server-2008-cve20170144/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/win-server-2008-cve20170144/</guid>
+                <pubDate>Wed, 26 May 2021 18:08:33 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>windows缓冲区溢出漏洞测试</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/%E6%BC%8F%E6%B4%9E%E6%B5%8B%E8%AF%95/">漏洞测试</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/">缓冲区溢出</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/%E6%BC%8F%E6%B4%9E/">漏洞</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>英语语法笔记</title>
