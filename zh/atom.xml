@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">嘟囔</title>
     <subtitle type="html">嘟囔的学习小站</subtitle>
-    <updated>2021-05-27T00:08:18&#43;08:00</updated>
+    <updated>2021-05-31T00:51:23&#43;08:00</updated>
     <id>https://newdivide2014.github.io/zh/</id>
     <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
     <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
@@ -16,6 +16,59 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
+        <entry>
+            <title type="text">1074.元素和为目标值的子矩阵数量</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/how-to-use-uthash/" />
+            <id>https://newdivide2014.github.io/zh/posts/how-to-use-uthash/</id>
+            <updated>2021-05-30T23:43:44&#43;08:00</updated>
+            <published>2021-05-29T21:41:56&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1074题解学习</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/c/" term="c" label="c" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/uthash/" term="uthash" label="uthash" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/c/" term="c" label="c" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/leetcode/" term="leetcode" label="leetcode" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Windows Server 2008 CVE20170144验证</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/win-server-2008-cve20170144/" />
