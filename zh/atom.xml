@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">嘟囔</title>
     <subtitle type="html">嘟囔的学习小站</subtitle>
-    <updated>2021-06-09T00:37:55&#43;08:00</updated>
+    <updated>2021-06-10T16:13:41&#43;08:00</updated>
     <id>https://newdivide2014.github.io/zh/</id>
     <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
     <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
@@ -15,12 +15,12 @@
                 <email>newdivide7037@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.82.0">Hugo</generator>
         <entry>
-            <title type="text">1074.元素和为目标值的子矩阵数量</title>
-            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/how-to-use-uthash/" />
-            <id>https://newdivide2014.github.io/zh/posts/how-to-use-uthash/</id>
-            <updated>2021-05-30T23:43:44&#43;08:00</updated>
+            <title type="text">Leetcode 1074.元素和为目标值的子矩阵数量</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/leetcode-1074/" />
+            <id>https://newdivide2014.github.io/zh/posts/leetcode-1074/</id>
+            <updated>2021-06-10T16:11:48&#43;08:00</updated>
             <published>2021-05-29T21:41:56&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -39,7 +39,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/c/" term="c" label="c" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/leetcode/" term="Leetcode" label="Leetcode" />
                             
                         
                     
@@ -337,7 +337,7 @@
             <title type="text">qt程序在多屏下显示不全的问题</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/qt-ui-center-show/" />
             <id>https://newdivide2014.github.io/zh/posts/qt-ui-center-show/</id>
-            <updated>2021-05-21T12:48:14&#43;08:00</updated>
+            <updated>2021-05-19T16:36:17&#43;08:00</updated>
             <published>2021-04-24T22:53:56&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -540,7 +540,7 @@
             <title type="text">华为交换机一些命令及回显信息</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/huawei-switch/" />
             <id>https://newdivide2014.github.io/zh/posts/huawei-switch/</id>
-            <updated>2021-05-24T22:38:09&#43;08:00</updated>
+            <updated>2021-05-24T10:13:13&#43;08:00</updated>
             <published>2020-11-23T16:14:12&#43;08:00</published>
             <author>
                     <name>嘟囔</name>

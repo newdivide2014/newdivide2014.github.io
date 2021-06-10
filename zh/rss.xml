@@ -10,7 +10,7 @@
         <title>嘟囔</title>
         <link>https://newdivide2014.github.io/zh/</link>
         <description>嘟囔的学习小站</description>
-        <generator>Hugo 0.82.1 https://gohugo.io/</generator>
+        <generator>Hugo 0.82.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Wed, 09 Jun 2021 00:37:55 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 10 Jun 2021 16:13:41 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
         
             <item>
-                <title>1074.元素和为目标值的子矩阵数量</title>
-                <link>https://newdivide2014.github.io/zh/posts/how-to-use-uthash/</link>
-                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/how-to-use-uthash/</guid>
+                <title>Leetcode 1074.元素和为目标值的子矩阵数量</title>
+                <link>https://newdivide2014.github.io/zh/posts/leetcode-1074/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/leetcode-1074/</guid>
                 <pubDate>Sat, 29 May 2021 21:41:56 &#43;0800</pubDate>
                 
                     <author>newdivide7037@gmail.com (嘟囔)</author>
@@ -49,7 +49,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/c/">c</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/leetcode/">Leetcode</category>
                                 
                             
                         
