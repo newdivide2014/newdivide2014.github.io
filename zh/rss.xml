@@ -10,7 +10,7 @@
         <title>嘟囔</title>
         <link>https://newdivide2014.github.io/zh/</link>
         <description>嘟囔的学习小站</description>
-        <generator>Hugo 0.82.0 https://gohugo.io/</generator>
+        <generator>Hugo 0.82.1 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,10 +23,49 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 10 Jun 2021 16:13:41 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 30 Jun 2021 00:49:41 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
+        
+            <item>
+                <title>environ环境变量表 &amp; 库</title>
+                <link>https://newdivide2014.github.io/zh/posts/environ-lib/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/environ-lib/</guid>
+                <pubDate>Tue, 29 Jun 2021 23:22:47 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>environ环境变量表和库相关的一些</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">linux</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/environ/">environ</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Leetcode 1074.元素和为目标值的子矩阵数量</title>
