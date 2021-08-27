@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">嘟囔</title>
     <subtitle type="html">嘟囔的学习小站</subtitle>
-    <updated>2021-06-30T00:49:41&#43;08:00</updated>
+    <updated>2021-08-27T16:10:33&#43;08:00</updated>
     <id>https://newdivide2014.github.io/zh/</id>
     <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
     <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
@@ -15,12 +15,94 @@
                 <email>newdivide7037@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
+        <entry>
+            <title type="text">Ftp Common Commands</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/ftp-common-commands/" />
+            <id>https://newdivide2014.github.io/zh/posts/ftp-common-commands/</id>
+            <updated>2021-08-27T10:05:55&#43;08:00</updated>
+            <published>2021-08-27T10:00:49&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">ftp常用命令记录</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/ftp/" term="ftp" label="ftp" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/ftp-commands/" term="ftp commands" label="ftp commands" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">svn Can&#39;t convert string from &#39;UTF-8&#39; to native encoding</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/fix-svn-cannot-convert-string/" />
+            <id>https://newdivide2014.github.io/zh/posts/fix-svn-cannot-convert-string/</id>
+            <updated>2021-08-27T09:53:55&#43;08:00</updated>
+            <published>2021-08-27T09:26:40&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">svn报错解决</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/svn/" term="svn" label="svn" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/svn-error/" term="svn error" label="svn error" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">environ环境变量表 &amp; 库</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/environ-lib/" />
             <id>https://newdivide2014.github.io/zh/posts/environ-lib/</id>
-            <updated>2021-06-30T00:48:44&#43;08:00</updated>
+            <updated>2021-08-25T13:32:06&#43;08:00</updated>
             <published>2021-06-29T23:22:47&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -61,7 +143,7 @@
             <title type="text">Leetcode 1074.元素和为目标值的子矩阵数量</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/leetcode-1074/" />
             <id>https://newdivide2014.github.io/zh/posts/leetcode-1074/</id>
-            <updated>2021-06-10T19:56:01&#43;08:00</updated>
+            <updated>2021-08-23T16:38:37&#43;08:00</updated>
             <published>2021-05-29T21:41:56&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -378,7 +460,7 @@
             <title type="text">qt程序在多屏下显示不全的问题</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/qt-ui-center-show/" />
             <id>https://newdivide2014.github.io/zh/posts/qt-ui-center-show/</id>
-            <updated>2021-05-21T12:48:14&#43;08:00</updated>
+            <updated>2021-08-23T16:38:37&#43;08:00</updated>
             <published>2021-04-24T22:53:56&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -581,7 +663,7 @@
             <title type="text">华为交换机一些命令及回显信息</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/huawei-switch/" />
             <id>https://newdivide2014.github.io/zh/posts/huawei-switch/</id>
-            <updated>2021-05-24T22:38:09&#43;08:00</updated>
+            <updated>2021-08-23T16:38:37&#43;08:00</updated>
             <published>2020-11-23T16:14:12&#43;08:00</published>
             <author>
                     <name>嘟囔</name>

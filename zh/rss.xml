@@ -10,7 +10,7 @@
         <title>嘟囔</title>
         <link>https://newdivide2014.github.io/zh/</link>
         <description>嘟囔的学习小站</description>
-        <generator>Hugo 0.82.1 https://gohugo.io/</generator>
+        <generator>Hugo 0.87.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,10 +23,88 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Wed, 30 Jun 2021 00:49:41 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 27 Aug 2021 16:10:33 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
+        
+            <item>
+                <title>Ftp Common Commands</title>
+                <link>https://newdivide2014.github.io/zh/posts/ftp-common-commands/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/ftp-common-commands/</guid>
+                <pubDate>Fri, 27 Aug 2021 10:00:49 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>ftp常用命令记录</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/ftp/">ftp</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/ftp-commands/">ftp commands</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>svn Can&#39;t convert string from &#39;UTF-8&#39; to native encoding</title>
+                <link>https://newdivide2014.github.io/zh/posts/fix-svn-cannot-convert-string/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/fix-svn-cannot-convert-string/</guid>
+                <pubDate>Fri, 27 Aug 2021 09:26:40 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>svn报错解决</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/svn/">svn</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/svn-error/">svn error</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>environ环境变量表 &amp; 库</title>
