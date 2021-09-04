@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://newdivide2014.github.io/zh/posts/xz-5.2.2-breaks-rpm-command/</loc>
+    <lastmod>2021-09-01T11:56:46+08:00</lastmod>
+  </url><url>
     <loc>https://newdivide2014.github.io/zh/categories/</loc>
-    <lastmod>2021-08-27T10:05:55+08:00</lastmod>
+    <lastmod>2021-09-01T11:56:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,17 +18,11 @@
                 href="https://newdivide2014.github.io/zh/categories/"
                 />
   </url><url>
-    <loc>https://newdivide2014.github.io/zh/categories/ftp/</loc>
-    <lastmod>2021-08-27T10:05:55+08:00</lastmod>
-  </url><url>
-    <loc>https://newdivide2014.github.io/zh/tags/ftp-commands/</loc>
-    <lastmod>2021-08-27T10:05:55+08:00</lastmod>
-  </url><url>
-    <loc>https://newdivide2014.github.io/zh/posts/ftp-common-commands/</loc>
-    <lastmod>2021-08-27T10:05:55+08:00</lastmod>
+    <loc>https://newdivide2014.github.io/zh/categories/linux/</loc>
+    <lastmod>2021-09-01T11:56:46+08:00</lastmod>
   </url><url>
     <loc>https://newdivide2014.github.io/zh/posts/</loc>
-    <lastmod>2021-08-27T10:05:55+08:00</lastmod>
+    <lastmod>2021-09-01T11:56:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -38,7 +35,7 @@
                 />
   </url><url>
     <loc>https://newdivide2014.github.io/zh/tags/</loc>
-    <lastmod>2021-08-27T10:05:55+08:00</lastmod>
+    <lastmod>2021-09-01T11:56:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -50,8 +47,11 @@
                 href="https://newdivide2014.github.io/zh/tags/"
                 />
   </url><url>
+    <loc>https://newdivide2014.github.io/zh/tags/xz/</loc>
+    <lastmod>2021-09-01T11:56:46+08:00</lastmod>
+  </url><url>
     <loc>https://newdivide2014.github.io/zh/</loc>
-    <lastmod>2021-08-27T10:05:55+08:00</lastmod>
+    <lastmod>2021-09-01T11:56:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -62,6 +62,15 @@
                 hreflang="zh"
                 href="https://newdivide2014.github.io/zh/"
                 />
+  </url><url>
+    <loc>https://newdivide2014.github.io/zh/categories/ftp/</loc>
+    <lastmod>2021-08-27T10:05:55+08:00</lastmod>
+  </url><url>
+    <loc>https://newdivide2014.github.io/zh/tags/ftp-commands/</loc>
+    <lastmod>2021-08-27T10:05:55+08:00</lastmod>
+  </url><url>
+    <loc>https://newdivide2014.github.io/zh/posts/ftp-common-commands/</loc>
+    <lastmod>2021-08-27T10:05:55+08:00</lastmod>
   </url><url>
     <loc>https://newdivide2014.github.io/zh/categories/svn/</loc>
     <lastmod>2021-08-27T09:53:55+08:00</lastmod>
@@ -76,9 +85,6 @@
     <lastmod>2021-08-25T13:32:06+08:00</lastmod>
   </url><url>
     <loc>https://newdivide2014.github.io/zh/posts/environ-lib/</loc>
-    <lastmod>2021-08-25T13:32:06+08:00</lastmod>
-  </url><url>
-    <loc>https://newdivide2014.github.io/zh/categories/linux/</loc>
     <lastmod>2021-08-25T13:32:06+08:00</lastmod>
   </url><url>
     <loc>https://newdivide2014.github.io/zh/bbtalk/</loc>

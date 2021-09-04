@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">嘟囔</title>
     <subtitle type="html">嘟囔的学习小站</subtitle>
-    <updated>2021-08-27T16:10:33&#43;08:00</updated>
+    <updated>2021-09-04T16:00:08&#43;08:00</updated>
     <id>https://newdivide2014.github.io/zh/</id>
     <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
     <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
@@ -16,6 +16,47 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
+        <entry>
+            <title type="text">/lib64/liblzma.so.5: version `XZ_5.1.2alpha&#39; not found</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/xz-5.2.2-breaks-rpm-command/" />
+            <id>https://newdivide2014.github.io/zh/posts/xz-5.2.2-breaks-rpm-command/</id>
+            <updated>2021-09-01T11:56:46&#43;08:00</updated>
+            <published>2021-08-31T13:48:18&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">XZ 5.2.2 breaks rpm command</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="linux" label="linux" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/xz/" term="XZ" label="XZ" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Ftp Common Commands</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/ftp-common-commands/" />

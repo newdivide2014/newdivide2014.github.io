@@ -23,10 +23,49 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 27 Aug 2021 16:10:33 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 04 Sep 2021 16:00:09 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
+        
+            <item>
+                <title>/lib64/liblzma.so.5: version `XZ_5.1.2alpha&#39; not found</title>
+                <link>https://newdivide2014.github.io/zh/posts/xz-5.2.2-breaks-rpm-command/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/xz-5.2.2-breaks-rpm-command/</guid>
+                <pubDate>Tue, 31 Aug 2021 13:48:18 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>XZ 5.2.2 breaks rpm command</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">linux</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/xz/">XZ</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Ftp Common Commands</title>
