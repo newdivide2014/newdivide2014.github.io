@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">嘟囔</title>
     <subtitle type="html">嘟囔的学习小站</subtitle>
-    <updated>2021-09-04T16:00:08&#43;08:00</updated>
+    <updated>2021-09-30T12:08:01&#43;08:00</updated>
     <id>https://newdivide2014.github.io/zh/</id>
     <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
     <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
@@ -16,6 +16,53 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
+        <entry>
+            <title type="text">编译Python3.9.7</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/compile-python3.9.7/" />
+            <id>https://newdivide2014.github.io/zh/posts/compile-python3.9.7/</id>
+            <updated>2021-09-30T12:03:50&#43;08:00</updated>
+            <published>2021-09-30T11:27:45&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">编译python3.9.7无法打开libssl.so.47报错解决</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/python/" term="python" label="python" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/python3.9.7/" term="python3.9.7" label="python3.9.7" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/libssl.so.47/" term="“libssl.so.47”" label="“libssl.so.47”" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">/lib64/liblzma.so.5: version `XZ_5.1.2alpha&#39; not found</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/xz-5.2.2-breaks-rpm-command/" />
@@ -734,6 +781,31 @@
                                 <category scheme="https://newdivide2014.github.io/zh/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/" term="交换机" label="交换机" />
                             
                         
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text"></title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/tmp/" />
+            <id>https://newdivide2014.github.io/zh/posts/tmp/</id>
+            <updated>2021-09-29T18:35:15&#43;08:00</updated>
+            <published>0001-01-01T00:00:00&#43;00:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">C语言中access/_access函数的使用 https://blog.csdn.net/fengbingchun/article/details/100342049/ int access(const char *pathname, int mode); Linux inotify详解 https://blog.csdn.net/breakout_alex/article/details/89028868 1 2 3 int fd = inotify_init (); int wd = inotify_add_watch (fd, path, mask); int ret = inotify_rm_watch (fd, wd); https://blog.csdn.net/daiyudong2020/article/details/51695502 ==https://blog.csdn.net/u011279649/article/details/52016555== ==https://blog.csdn.net/liuhengxiao/article/details/44171697== IN_IGNORED：监控被显式移除（调用inotify_rm_watch()），或者自动移除（文件被删除或者文件系统被卸载） https://blog.csdn.net/hanjw05/article/details/53860132 IN_ALL_EVENTS 以上所有flag的集合 加密原始文件 sh ../bmgjx/bin/dae_bmgjx.sh 8 /test/123.key userauth.txt userauth.txt.enc 1 编译加密解密调用openssl g++ zbtest.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr g++ Untitled-1.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr 1 C++: munmap_chunk(): invalid pointer 2017年2……</summary>
+            
+            
+            
+            
+            
+                
+                    
+                
                     
                 
             

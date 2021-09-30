@@ -23,10 +23,55 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sat, 04 Sep 2021 16:00:09 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 30 Sep 2021 12:08:01 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
+        
+            <item>
+                <title>编译Python3.9.7</title>
+                <link>https://newdivide2014.github.io/zh/posts/compile-python3.9.7/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/compile-python3.9.7/</guid>
+                <pubDate>Thu, 30 Sep 2021 11:27:45 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>编译python3.9.7无法打开libssl.so.47报错解决</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/python/">python</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/python3.9.7/">python3.9.7</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/libssl.so.47/">“libssl.so.47”</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>/lib64/liblzma.so.5: version `XZ_5.1.2alpha&#39; not found</title>
@@ -712,6 +757,29 @@
                                     <category domain="https://newdivide2014.github.io/zh/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/">交换机</category>
                                 
                             
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title></title>
+                <link>https://newdivide2014.github.io/zh/posts/tmp/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/tmp/</guid>
+                <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>C语言中access/_access函数的使用 https://blog.csdn.net/fengbingchun/article/details/100342049/ int access(const char *pathname, int mode); Linux inotify详解 https://blog.csdn.net/breakout_alex/article/details/89028868 1 2 3 int fd = inotify_init (); int wd = inotify_add_watch (fd, path, mask); int ret = inotify_rm_watch (fd, wd); https://blog.csdn.net/daiyudong2020/article/details/51695502 ==https://blog.csdn.net/u011279649/article/details/52016555== ==https://blog.csdn.net/liuhengxiao/article/details/44171697== IN_IGNORED：监控被显式移除（调用inotify_rm_watch()），或者自动移除（文件被删除或者文件系统被卸载） https://blog.csdn.net/hanjw05/article/details/53860132 IN_ALL_EVENTS 以上所有flag的集合 加密原始文件 sh ../bmgjx/bin/dae_bmgjx.sh 8 /test/123.key userauth.txt userauth.txt.enc 1 编译加密解密调用openssl g++ zbtest.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr g++ Untitled-1.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr 1 C++: munmap_chunk(): invalid pointer 2017年2……</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
                         
                     
                 
