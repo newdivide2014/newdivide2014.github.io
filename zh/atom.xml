@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">嘟囔</title>
     <subtitle type="html">嘟囔的学习小站</subtitle>
-    <updated>2021-09-30T12:08:01&#43;08:00</updated>
+    <updated>2022-02-25T11:04:54&#43;08:00</updated>
     <id>https://newdivide2014.github.io/zh/</id>
     <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
     <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
@@ -16,6 +16,53 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
+        <entry>
+            <title type="text">linux c access函数</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/c_access/" />
+            <id>https://newdivide2014.github.io/zh/posts/c_access/</id>
+            <updated>2022-02-25T11:00:21&#43;08:00</updated>
+            <published>2022-02-25T09:57:09&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">英文部分搬运自《Linux Programmer&#39;s Manual》 NAME access - check real user&#39;s permissions for a file SYNOPSIS(简介、概要) #include &amp;lt;unistd.h&amp;gt; int access(const char *pathname, int mode); DESCRIPTION access() checks whether the calling process can access the file pathname. If pathname is a symbolic link, it is dereferenced(解出引用). The mode specifies the accessibility check(s) to be performed, and is either the value F_OK, or a mask consisting of the bitwise OR of one or more of R_OK, W_OK, and X_OK. F_OK tests for the existence of the file. R_OK, W_OK, and X_OK test whether the file exists and grants read, write, and execute permissions, respectively. The check is done using the calling process&#39;s real UID and GID, rather than the effective IDs as is done when actually attempting an operation (e.g., open(2)) on the file. This allows set-user-ID programs to easily determine the invoking user&#39;s authority. If the calling process is privileged (i.e., its real……</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/c/" term="c" label="c" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/c/" term="c" label="c" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/access/" term="access" label="access" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">编译Python3.9.7</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/compile-python3.9.7/" />
@@ -790,7 +837,7 @@
             <title type="text"></title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/tmp/" />
             <id>https://newdivide2014.github.io/zh/posts/tmp/</id>
-            <updated>2021-09-29T18:35:15&#43;08:00</updated>
+            <updated>2021-11-17T09:49:35&#43;08:00</updated>
             <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
                     <name>嘟囔</name>

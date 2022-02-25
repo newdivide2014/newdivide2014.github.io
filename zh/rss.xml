@@ -23,10 +23,55 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 30 Sep 2021 12:08:01 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 25 Feb 2022 11:04:54 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
+        
+            <item>
+                <title>linux c access函数</title>
+                <link>https://newdivide2014.github.io/zh/posts/c_access/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/c_access/</guid>
+                <pubDate>Fri, 25 Feb 2022 09:57:09 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>英文部分搬运自《Linux Programmer&#39;s Manual》 NAME access - check real user&#39;s permissions for a file SYNOPSIS(简介、概要) #include &amp;lt;unistd.h&amp;gt; int access(const char *pathname, int mode); DESCRIPTION access() checks whether the calling process can access the file pathname. If pathname is a symbolic link, it is dereferenced(解出引用). The mode specifies the accessibility check(s) to be performed, and is either the value F_OK, or a mask consisting of the bitwise OR of one or more of R_OK, W_OK, and X_OK. F_OK tests for the existence of the file. R_OK, W_OK, and X_OK test whether the file exists and grants read, write, and execute permissions, respectively. The check is done using the calling process&#39;s real UID and GID, rather than the effective IDs as is done when actually attempting an operation (e.g., open(2)) on the file. This allows set-user-ID programs to easily determine the invoking user&#39;s authority. If the calling process is privileged (i.e., its real……</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/c/">c</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/c/">c</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/access/">access</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>编译Python3.9.7</title>
