@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">嘟囔</title>
     <subtitle type="html">嘟囔的学习小站</subtitle>
-    <updated>2022-02-25T11:04:54&#43;08:00</updated>
+    <updated>2022-03-16T14:46:51&#43;08:00</updated>
     <id>https://newdivide2014.github.io/zh/</id>
     <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
     <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
@@ -16,6 +16,47 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
+        <entry>
+            <title type="text">go语言校验密码强度</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/passwdcheck/" />
+            <id>https://newdivide2014.github.io/zh/posts/passwdcheck/</id>
+            <updated>2022-03-16T14:38:04&#43;08:00</updated>
+            <published>2022-03-16T14:32:47&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">go语言校验密码复杂度的函数，大写、小写、数字、特殊字符。 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 package main import ( &amp;#34;regexp&amp;#34; &amp;#34;strings&amp;#34; ) const ( levelD = iota LevelC LevelB LevelA LevelS ) func checkPasswd(minLength, maxLength, minLevel int, pwd string) bool { if len(pwd) &amp;lt; minLength { return false } if len(pwd) &amp;gt; maxLength { return false } var level int = levelD patternList := []string{`[0-9]+`, `[a-z]+`, `[A-Z]+`, `[~!@#$%^&amp;amp;*?_-]+`} for _, pattern := range patternList { match, _ := regexp.MatchString(pattern, pwd) if match { level++ } } if level &amp;lt; minLevel { return false } return true } fun main() { isOk := checkPasswd(8, 64, LevelS, myWindow.passwd.Text()) if(!isOk) { myWindow.showConfigErr(&amp;#34; 密码错误！&amp;#34;) //或者打印出来 return } }</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/go/" term="go" label="go" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/go/" term="go" label="go" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">linux c access函数</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/c_access/" />
@@ -837,14 +878,14 @@
             <title type="text"></title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/tmp/" />
             <id>https://newdivide2014.github.io/zh/posts/tmp/</id>
-            <updated>2021-11-17T09:49:35&#43;08:00</updated>
+            <updated>2022-02-25T11:37:28&#43;08:00</updated>
             <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
                     <name>嘟囔</name>
                     <uri>https://newdivide2014.github.io/zh/</uri>
                     <email>newdivide7037@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">C语言中access/_access函数的使用 https://blog.csdn.net/fengbingchun/article/details/100342049/ int access(const char *pathname, int mode); Linux inotify详解 https://blog.csdn.net/breakout_alex/article/details/89028868 1 2 3 int fd = inotify_init (); int wd = inotify_add_watch (fd, path, mask); int ret = inotify_rm_watch (fd, wd); https://blog.csdn.net/daiyudong2020/article/details/51695502 ==https://blog.csdn.net/u011279649/article/details/52016555== ==https://blog.csdn.net/liuhengxiao/article/details/44171697== IN_IGNORED：监控被显式移除（调用inotify_rm_watch()），或者自动移除（文件被删除或者文件系统被卸载） https://blog.csdn.net/hanjw05/article/details/53860132 IN_ALL_EVENTS 以上所有flag的集合 加密原始文件 sh ../bmgjx/bin/dae_bmgjx.sh 8 /test/123.key userauth.txt userauth.txt.enc 1 编译加密解密调用openssl g++ zbtest.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr g++ Untitled-1.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr 1 C++: munmap_chunk(): invalid pointer 2017年2……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Linux inotify详解 https://blog.csdn.net/breakout_alex/article/details/89028868 1 2 3 int fd = inotify_init (); int wd = inotify_add_watch (fd, path, mask); int ret = inotify_rm_watch (fd, wd); https://blog.csdn.net/daiyudong2020/article/details/51695502 ==https://blog.csdn.net/u011279649/article/details/52016555== ==https://blog.csdn.net/liuhengxiao/article/details/44171697== IN_IGNORED：监控被显式移除（调用inotify_rm_watch()），或者自动移除（文件被删除或者文件系统被卸载） https://blog.csdn.net/hanjw05/article/details/53860132 IN_ALL_EVENTS 以上所有flag的集合 加密原始文件 sh ../bmgjx/bin/dae_bmgjx.sh 8 /test/123.key userauth.txt userauth.txt.enc 1 编译加密解密调用openssl g++ zbtest.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr g++ Untitled-1.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr 1 C++: munmap_chunk(): invalid pointer 2017年2月22日 中午 336 字 1 分钟 指针问题绝对是C++ 中最令人头疼的问题……</summary>
             
             
             
