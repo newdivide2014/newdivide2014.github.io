@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">嘟囔</title>
     <subtitle type="html">嘟囔的学习小站</subtitle>
-    <updated>2022-03-16T14:46:51&#43;08:00</updated>
+    <updated>2022-03-26T11:49:34&#43;08:00</updated>
     <id>https://newdivide2014.github.io/zh/</id>
     <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
     <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
@@ -17,10 +17,92 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
         <entry>
+            <title type="text">Linux根据用户名得到uid</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/getuid/" />
+            <id>https://newdivide2014.github.io/zh/posts/getuid/</id>
+            <updated>2022-03-26T11:39:52&#43;08:00</updated>
+            <published>2022-03-26T10:35:18&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">uid获取函数</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="Linux" label="Linux" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/uid/" term="uid" label="uid" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">常用函数头文件</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/headfile/" />
+            <id>https://newdivide2014.github.io/zh/posts/headfile/</id>
+            <updated>2022-03-26T10:20:30&#43;08:00</updated>
+            <published>2022-03-24T11:29:03&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">总是忘记一些函数的头文件，还得百度查。写个文记录下方便自己ctrl+f查找。 1 2 3 4 5 #include&amp;lt;sys/stat.h&amp;gt;//修改文件权限 int chmod(const char * path,mode_t mode); //对已打开的文件进行修改权限 int fchmod(int fd, mode_t mode); 1 2 3 #include &amp;lt;regex&amp;gt;//c++正则 std::regex</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="Linux" label="Linux" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/%E5%A4%B4%E6%96%87%E4%BB%B6/" term="头文件" label="头文件" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">go语言校验密码强度</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/passwdcheck/" />
             <id>https://newdivide2014.github.io/zh/posts/passwdcheck/</id>
-            <updated>2022-03-16T14:38:04&#43;08:00</updated>
+            <updated>2022-03-26T10:18:15&#43;08:00</updated>
             <published>2022-03-16T14:32:47&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -39,7 +121,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/go/" term="go" label="go" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/go/" term="Go" label="Go" />
                             
                         
                     
@@ -61,7 +143,7 @@
             <title type="text">linux c access函数</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/c_access/" />
             <id>https://newdivide2014.github.io/zh/posts/c_access/</id>
-            <updated>2022-02-25T11:00:21&#43;08:00</updated>
+            <updated>2022-03-26T10:18:24&#43;08:00</updated>
             <published>2022-02-25T09:57:09&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -80,7 +162,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/c/" term="c" label="c" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/c/" term="C" label="C" />
                             
                         
                     
@@ -108,7 +190,7 @@
             <title type="text">编译Python3.9.7</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/compile-python3.9.7/" />
             <id>https://newdivide2014.github.io/zh/posts/compile-python3.9.7/</id>
-            <updated>2021-09-30T12:03:50&#43;08:00</updated>
+            <updated>2022-03-26T10:18:53&#43;08:00</updated>
             <published>2021-09-30T11:27:45&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -127,7 +209,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/python/" term="python" label="python" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/python/" term="Python" label="Python" />
                             
                         
                     
@@ -155,7 +237,7 @@
             <title type="text">/lib64/liblzma.so.5: version `XZ_5.1.2alpha&#39; not found</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/xz-5.2.2-breaks-rpm-command/" />
             <id>https://newdivide2014.github.io/zh/posts/xz-5.2.2-breaks-rpm-command/</id>
-            <updated>2021-09-01T11:56:46&#43;08:00</updated>
+            <updated>2022-03-26T10:26:00&#43;08:00</updated>
             <published>2021-08-31T13:48:18&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -174,7 +256,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="linux" label="linux" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="Linux" label="Linux" />
                             
                         
                     
@@ -196,7 +278,7 @@
             <title type="text">Ftp Common Commands</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/ftp-common-commands/" />
             <id>https://newdivide2014.github.io/zh/posts/ftp-common-commands/</id>
-            <updated>2021-08-27T10:05:55&#43;08:00</updated>
+            <updated>2022-03-26T10:20:15&#43;08:00</updated>
             <published>2021-08-27T10:00:49&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -215,7 +297,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/ftp/" term="ftp" label="ftp" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/ftp/" term="Ftp" label="Ftp" />
                             
                         
                     
@@ -237,7 +319,7 @@
             <title type="text">svn Can&#39;t convert string from &#39;UTF-8&#39; to native encoding</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/fix-svn-cannot-convert-string/" />
             <id>https://newdivide2014.github.io/zh/posts/fix-svn-cannot-convert-string/</id>
-            <updated>2021-08-27T09:53:55&#43;08:00</updated>
+            <updated>2022-03-26T10:19:53&#43;08:00</updated>
             <published>2021-08-27T09:26:40&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -256,7 +338,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/svn/" term="svn" label="svn" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/svn/" term="Svn" label="Svn" />
                             
                         
                     
@@ -278,7 +360,7 @@
             <title type="text">environ环境变量表 &amp; 库</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/environ-lib/" />
             <id>https://newdivide2014.github.io/zh/posts/environ-lib/</id>
-            <updated>2021-08-25T13:32:06&#43;08:00</updated>
+            <updated>2022-03-26T10:16:53&#43;08:00</updated>
             <published>2021-06-29T23:22:47&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -297,7 +379,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="linux" label="linux" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="Linux" label="Linux" />
                             
                         
                     
@@ -391,7 +473,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/%E6%BC%8F%E6%B4%9E%E6%B5%8B%E8%AF%95/" term="漏洞测试" label="漏洞测试" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/vulnerability/" term="Vulnerability" label="Vulnerability" />
                             
                         
                     
@@ -408,6 +490,47 @@
                             
                             
                                 <category scheme="https://newdivide2014.github.io/zh/tags/%E6%BC%8F%E6%B4%9E/" term="漏洞" label="漏洞" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">数据结构--树🌲</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/data-struct-tree/" />
+            <id>https://newdivide2014.github.io/zh/posts/data-struct-tree/</id>
+            <updated>2022-03-26T10:19:30&#43;08:00</updated>
+            <published>2021-05-26T00:24:44&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">🌲的知识点学习</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/data-structure/" term="Data Structure" label="Data Structure" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/tree/" term="tree" label="tree" />
                             
                         
                     
@@ -479,7 +602,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/qt/" term="qt" label="qt" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/qt/" term="Qt" label="Qt" />
                             
                         
                     
@@ -526,7 +649,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="linux" label="linux" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="Linux" label="Linux" />
                             
                         
                     
@@ -573,7 +696,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/life/" term="Life" label="Life" />
                             
                         
                     
@@ -614,7 +737,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/" term="硬件相关" label="硬件相关" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/hardware/" term="Hardware" label="Hardware" />
                             
                         
                     
@@ -636,7 +759,7 @@
             <title type="text">qt程序在多屏下显示不全的问题</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/qt-ui-center-show/" />
             <id>https://newdivide2014.github.io/zh/posts/qt-ui-center-show/</id>
-            <updated>2021-08-23T16:38:37&#43;08:00</updated>
+            <updated>2022-03-26T10:22:26&#43;08:00</updated>
             <published>2021-04-24T22:53:56&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -650,6 +773,14 @@
             
             
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/qt/" term="Qt" label="Qt" />
+                            
+                        
                     
                 
                     
@@ -666,7 +797,7 @@
         </entry>
     
         <entry>
-            <title type="text">Linux tar备忘</title>
+            <title type="text">Linux命令备忘</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/linux-tar-cmd/" />
             <id>https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</id>
             <updated>2021-04-11T20:12:03&#43;08:00</updated>
@@ -676,7 +807,7 @@
                     <uri>https://newdivide2014.github.io/zh/</uri>
                     <email>newdivide7037@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">tar 将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！ find 找到全局可写文件（word-writable file） 1 2 3 4 find / -xdev -type f \( -perm -0002 -a ! -perm -1000 \) -print # -type f 表示找文件 # -type d 表示找目录 # -type l 表示找链接文件</summary>
             
             
             
@@ -688,7 +819,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/linux-cmd/" term="linux cmd" label="linux cmd" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="Linux" label="Linux" />
                             
                         
                     
@@ -729,7 +860,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/" term="硬件相关" label="硬件相关" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/hardware/" term="Hardware" label="Hardware" />
                             
                         
                     
@@ -776,7 +907,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/git/" term="git" label="git" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/git/" term="Git" label="Git" />
                             
                         
                     
@@ -817,7 +948,7 @@
                             
                             
                             
-                                <category scheme="https://newdivide2014.github.io/zh/categories/hugo-theme/" term="hugo theme" label="hugo theme" />
+                                <category scheme="https://newdivide2014.github.io/zh/categories/hugo-theme/" term="Hugo Theme" label="Hugo Theme" />
                             
                         
                     
@@ -839,7 +970,7 @@
             <title type="text">华为交换机一些命令及回显信息</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/huawei-switch/" />
             <id>https://newdivide2014.github.io/zh/posts/huawei-switch/</id>
-            <updated>2021-08-23T16:38:37&#43;08:00</updated>
+            <updated>2022-03-26T10:21:30&#43;08:00</updated>
             <published>2020-11-23T16:14:12&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -853,6 +984,14 @@
             
             
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="Linux" label="Linux" />
+                            
+                        
                     
                 
                     

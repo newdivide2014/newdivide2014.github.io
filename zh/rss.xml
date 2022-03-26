@@ -23,10 +23,88 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Wed, 16 Mar 2022 14:46:51 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 26 Mar 2022 11:49:34 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
+        
+            <item>
+                <title>Linux根据用户名得到uid</title>
+                <link>https://newdivide2014.github.io/zh/posts/getuid/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/getuid/</guid>
+                <pubDate>Sat, 26 Mar 2022 10:35:18 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>uid获取函数</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/uid/">uid</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>常用函数头文件</title>
+                <link>https://newdivide2014.github.io/zh/posts/headfile/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/headfile/</guid>
+                <pubDate>Thu, 24 Mar 2022 11:29:03 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>总是忘记一些函数的头文件，还得百度查。写个文记录下方便自己ctrl+f查找。 1 2 3 4 5 #include&amp;lt;sys/stat.h&amp;gt;//修改文件权限 int chmod(const char * path,mode_t mode); //对已打开的文件进行修改权限 int fchmod(int fd, mode_t mode); 1 2 3 #include &amp;lt;regex&amp;gt;//c++正则 std::regex</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/%E5%A4%B4%E6%96%87%E4%BB%B6/">头文件</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>go语言校验密码强度</title>
@@ -49,7 +127,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/go/">go</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/go/">Go</category>
                                 
                             
                         
@@ -88,7 +166,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/c/">c</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/c/">C</category>
                                 
                             
                         
@@ -133,7 +211,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/python/">python</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/python/">Python</category>
                                 
                             
                         
@@ -178,7 +256,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">linux</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
                                 
                             
                         
@@ -217,7 +295,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/ftp/">ftp</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/ftp/">Ftp</category>
                                 
                             
                         
@@ -256,7 +334,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/svn/">svn</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/svn/">Svn</category>
                                 
                             
                         
@@ -295,7 +373,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">linux</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
                                 
                             
                         
@@ -385,7 +463,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/%E6%BC%8F%E6%B4%9E%E6%B5%8B%E8%AF%95/">漏洞测试</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/vulnerability/">Vulnerability</category>
                                 
                             
                         
@@ -402,6 +480,45 @@
                                 
                                 
                                     <category domain="https://newdivide2014.github.io/zh/tags/%E6%BC%8F%E6%B4%9E/">漏洞</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>数据结构--树🌲</title>
+                <link>https://newdivide2014.github.io/zh/posts/data-struct-tree/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/data-struct-tree/</guid>
+                <pubDate>Wed, 26 May 2021 00:24:44 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>🌲的知识点学习</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/data-structure/">Data Structure</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/tree/">tree</category>
                                 
                             
                         
@@ -469,7 +586,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/qt/">qt</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/qt/">Qt</category>
                                 
                             
                         
@@ -514,7 +631,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">linux</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
                                 
                             
                         
@@ -559,7 +676,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/%E7%94%9F%E6%B4%BB/">生活</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/life/">Life</category>
                                 
                             
                         
@@ -598,7 +715,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/">硬件相关</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/hardware/">Hardware</category>
                                 
                             
                         
@@ -633,6 +750,14 @@
                 
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/qt/">Qt</category>
+                                
+                            
+                        
                     
                         
                             
@@ -648,7 +773,7 @@
             </item>
         
             <item>
-                <title>Linux tar备忘</title>
+                <title>Linux命令备忘</title>
                 <link>https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</link>
                 <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</guid>
                 <pubDate>Sun, 11 Apr 2021 20:12:03 &#43;0800</pubDate>
@@ -656,7 +781,7 @@
                     <author>newdivide7037@gmail.com (嘟囔)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                <description>将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！</description>
+                <description>tar 将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！ find 找到全局可写文件（word-writable file） 1 2 3 4 find / -xdev -type f \( -perm -0002 -a ! -perm -1000 \) -print # -type f 表示找文件 # -type d 表示找目录 # -type l 表示找链接文件</description>
                 
                 
                 
@@ -668,7 +793,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/linux-cmd/">linux cmd</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
                                 
                             
                         
@@ -707,7 +832,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/">硬件相关</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/hardware/">Hardware</category>
                                 
                             
                         
@@ -752,7 +877,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/git/">git</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/git/">Git</category>
                                 
                             
                         
@@ -791,7 +916,7 @@
                                 
                                 
                                 
-                                    <category domain="https://newdivide2014.github.io/zh/categories/hugo-theme/">hugo theme</category>
+                                    <category domain="https://newdivide2014.github.io/zh/categories/hugo-theme/">Hugo Theme</category>
                                 
                             
                         
@@ -825,6 +950,14 @@
                 
                 
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
+                                
+                            
                         
                     
                         
