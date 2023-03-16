@@ -23,10 +23,205 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sat, 26 Mar 2022 11:49:34 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 16 Mar 2023 10:45:55 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
+        
+            <item>
+                <title>strcasestr函数</title>
+                <link>https://newdivide2014.github.io/zh/posts/test/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/test/</guid>
+                <pubDate>Fri, 26 Aug 2022 11:16:08 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>1 2 3 4 5 6 7 8 #define _GNU_SOURCE #include &amp;lt;string.h&amp;gt; char *strcasestr(const char *haystack, const char *needle); // 如果在编程时没有定义&amp;#34;_GNU_SOURCE&amp;#34;宏，则编译的时候会有警告信息 // warning: initialization makes pointer from integer without a cast // strcasestr函数并非是标准C库函数，是扩展函数。函数在调用之前未经声明的默认返回int型 strcasestr函数的功能、使用方法与strstr基本一致。 strcasestr函数在&amp;quot;子串&amp;quot;与&amp;quot;父串&amp;quot;进行……</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/strcasestr/">strcasestr</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>VScode GDB调试 16进制查看内存和表达式</title>
+                <link>https://newdivide2014.github.io/zh/posts/vscode-gdb-hex/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/vscode-gdb-hex/</guid>
+                <pubDate>Fri, 26 Aug 2022 11:16:08 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>调试技巧</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/gdb/">GDB</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/vscode-gdb/">VScode GDB</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>网球拍参数</title>
+                <link>https://newdivide2014.github.io/zh/posts/tmp/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/tmp/</guid>
+                <pubDate>Fri, 26 Aug 2022 11:16:08 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>Tennis racket</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/tennis/">Tennis</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/tennis-racket/">Tennis racket</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Linux error num含义</title>
+                <link>https://newdivide2014.github.io/zh/posts/linux-errno/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/linux-errno/</guid>
+                <pubDate>Wed, 06 Apr 2022 16:39:14 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>errno备忘查询</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/hugo/">hugo</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/first/">first</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>正则一些符号的含义&#34;</title>
+                <link>https://newdivide2014.github.io/zh/posts/regex/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/regex/</guid>
+                <pubDate>Wed, 30 Mar 2022 10:47:09 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>正则备忘</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/regex/">regex</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Linux根据用户名得到uid</title>
@@ -76,7 +271,7 @@
                     <author>newdivide7037@gmail.com (嘟囔)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                <description>总是忘记一些函数的头文件，还得百度查。写个文记录下方便自己ctrl+f查找。 1 2 3 4 5 #include&amp;lt;sys/stat.h&amp;gt;//修改文件权限 int chmod(const char * path,mode_t mode); //对已打开的文件进行修改权限 int fchmod(int fd, mode_t mode); 1 2 3 #include &amp;lt;regex&amp;gt;//c++正则 std::regex</description>
+                <description>总是忘记一些函数的头文件，还得百度查。写个文记录下方便自己ctrl+f查找。 1 2 3 4 5 #include&amp;lt;sys/stat.h&amp;gt;//修改文件权限 int chmod(const char * path,mode_t mode); //对已打开的文件进行修改权限 int fchmod(int fd, mode_t mode); 1 2 3 #include &amp;lt;regex&amp;gt;//c++正则 C++03之前不支持 std::regex</description>
                 
                 
                 
@@ -345,6 +540,45 @@
                                 
                                 
                                     <category domain="https://newdivide2014.github.io/zh/tags/svn-error/">svn error</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>编译upx</title>
+                <link>https://newdivide2014.github.io/zh/posts/compile-upx/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/compile-upx/</guid>
+                <pubDate>Wed, 30 Jun 2021 16:30:40 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>编译upx记录</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/upx/">upx</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/upx/">upx</category>
                                 
                             
                         
@@ -773,45 +1007,6 @@
             </item>
         
             <item>
-                <title>Linux命令备忘</title>
-                <link>https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</link>
-                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</guid>
-                <pubDate>Sun, 11 Apr 2021 20:12:03 &#43;0800</pubDate>
-                
-                    <author>newdivide7037@gmail.com (嘟囔)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                <description>tar 将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！ find 找到全局可写文件（word-writable file） 1 2 3 4 find / -xdev -type f \( -perm -0002 -a ! -perm -1000 \) -print # -type f 表示找文件 # -type d 表示找目录 # -type l 表示找链接文件</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://newdivide2014.github.io/zh/tags/linux-cmd/">linux cmd</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
                 <title>RS485和RS232区别</title>
                 <link>https://newdivide2014.github.io/zh/posts/rs485-rs232/</link>
                 <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/rs485-rs232/</guid>
@@ -981,14 +1176,14 @@
         
             <item>
                 <title></title>
-                <link>https://newdivide2014.github.io/zh/posts/tmp/</link>
-                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/tmp/</guid>
+                <link>https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</guid>
                 <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
                 
                     <author>newdivide7037@gmail.com (嘟囔)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                <description>Linux inotify详解 https://blog.csdn.net/breakout_alex/article/details/89028868 1 2 3 int fd = inotify_init (); int wd = inotify_add_watch (fd, path, mask); int ret = inotify_rm_watch (fd, wd); https://blog.csdn.net/daiyudong2020/article/details/51695502 ==https://blog.csdn.net/u011279649/article/details/52016555== ==https://blog.csdn.net/liuhengxiao/article/details/44171697== IN_IGNORED：监控被显式移除（调用inotify_rm_watch()），或者自动移除（文件被删除或者文件系统被卸载） https://blog.csdn.net/hanjw05/article/details/53860132 IN_ALL_EVENTS 以上所有flag的集合 加密原始文件 sh ../bmgjx/bin/dae_bmgjx.sh 8 /test/123.key userauth.txt userauth.txt.enc 1 编译加密解密调用openssl g++ zbtest.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr g++ Untitled-1.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr 1 C++: munmap_chunk(): invalid pointer 2017年2月22日 中午 336 字 1 分钟 指针问题绝对是C++ 中最令人头疼的问题……</description>
+                <description>title: &amp;quot;Linux命令备忘&amp;quot; date: 2021-04-11T20:12:03+08:00 lastmod: 2021-04-11T20:12:03+08:00 draft: false keywords: [&amp;quot;linux cmd&amp;quot;] tags: [&amp;quot;linux cmd&amp;quot;] categories: [&amp;quot;Linux&amp;quot;] author: &amp;quot;嘟囔&amp;quot; authorEmoji: 👺 cover: image: &amp;quot;/images/post/DSC_0803.JPG&amp;quot; # can also paste direct link from external site # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png alt: &amp;quot;&amp;quot; caption: &amp;quot;俺家狗子&amp;quot; relative: false # To use relative path for cover image, used in hugo Page-bundles tar 将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！ find 找到全局可写文件（word-writable file） 1 2 3 4 5 6 7 find / -xdev -type f \(……</description>
                 
                 
                 
