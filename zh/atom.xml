@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">嘟囔</title>
     <subtitle type="html">嘟囔的学习小站</subtitle>
-    <updated>2022-03-26T11:49:34&#43;08:00</updated>
+    <updated>2023-03-24T22:17:25&#43;08:00</updated>
     <id>https://newdivide2014.github.io/zh/</id>
     <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
     <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
@@ -15,12 +15,264 @@
                 <email>newdivide7037@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.92.2">Hugo</generator>
+        <entry>
+            <title type="text">c&#43;&#43; 智能指针</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/smart_pointer/" />
+            <id>https://newdivide2014.github.io/zh/posts/smart_pointer/</id>
+            <updated>2023-03-24T21:57:05&#43;08:00</updated>
+            <published>2023-03-22T09:39:58&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Smart Pointer</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/c-/" term="c&#43;&#43;" label="c&#43;&#43;" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/c-/" term="c&#43;&#43;" label="c&#43;&#43;" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/smart-pointer/" term="Smart Pointer" label="Smart Pointer" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">strcasestr函数</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/strcasestr/" />
+            <id>https://newdivide2014.github.io/zh/posts/strcasestr/</id>
+            <updated>2023-03-24T21:57:05&#43;08:00</updated>
+            <published>2022-08-26T11:16:08&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1 2 3 4 5 6 7 8 #define _GNU_SOURCE #include &amp;lt;string.h&amp;gt; char *strcasestr(const char *haystack, const char *needle); // 如果在编程时没有定义&amp;#34;_GNU_SOURCE&amp;#34;宏，则编译的时候会有警告信息 // warning: initialization makes pointer from integer without a cast // strcasestr函数并非是标准C库函数，是扩展函数。函数在调用之前未经声明的默认返回int型 strcasestr函数的功能、使用方法与strstr基本一致。 strcasestr函数在&amp;quot;子串&amp;quot;与&amp;quot;父串&amp;quot;进行……</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="Linux" label="Linux" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/strcasestr/" term="strcasestr" label="strcasestr" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">VScode GDB调试 16进制查看内存和表达式</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/vscode-gdb-hex/" />
+            <id>https://newdivide2014.github.io/zh/posts/vscode-gdb-hex/</id>
+            <updated>2023-03-24T21:57:05&#43;08:00</updated>
+            <published>2022-08-26T11:16:08&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">调试技巧</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/gdb/" term="GDB" label="GDB" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/vscode-gdb/" term="VScode GDB" label="VScode GDB" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">网球拍参数</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/tennis-racket/" />
+            <id>https://newdivide2014.github.io/zh/posts/tennis-racket/</id>
+            <updated>2023-03-24T21:59:16&#43;08:00</updated>
+            <published>2022-08-26T11:16:08&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Tennis racket</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/tennis/" term="Tennis" label="Tennis" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/tennis-racket/" term="Tennis racket" label="Tennis racket" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Linux error num含义</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/linux-errno/" />
+            <id>https://newdivide2014.github.io/zh/posts/linux-errno/</id>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
+            <published>2022-04-06T16:39:14&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">errno备忘查询</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/hugo/" term="hugo" label="hugo" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/first/" term="first" label="first" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">正则一些符号的含义</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/regex/" />
+            <id>https://newdivide2014.github.io/zh/posts/regex/</id>
+            <updated>2023-03-24T21:58:10&#43;08:00</updated>
+            <published>2022-03-30T10:47:09&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">正则备忘</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="Linux" label="Linux" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/regex/" term="regex" label="regex" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Linux根据用户名得到uid</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/getuid/" />
             <id>https://newdivide2014.github.io/zh/posts/getuid/</id>
-            <updated>2022-03-26T11:39:52&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2022-03-26T10:35:18&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -61,14 +313,14 @@
             <title type="text">常用函数头文件</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/headfile/" />
             <id>https://newdivide2014.github.io/zh/posts/headfile/</id>
-            <updated>2022-03-26T10:20:30&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2022-03-24T11:29:03&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
                     <uri>https://newdivide2014.github.io/zh/</uri>
                     <email>newdivide7037@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">总是忘记一些函数的头文件，还得百度查。写个文记录下方便自己ctrl+f查找。 1 2 3 4 5 #include&amp;lt;sys/stat.h&amp;gt;//修改文件权限 int chmod(const char * path,mode_t mode); //对已打开的文件进行修改权限 int fchmod(int fd, mode_t mode); 1 2 3 #include &amp;lt;regex&amp;gt;//c++正则 std::regex</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">总是忘记一些函数的头文件，还得百度查。写个文记录下方便自己ctrl+f查找。 1 2 3 4 5 #include&amp;lt;sys/stat.h&amp;gt;//修改文件权限 int chmod(const char * path,mode_t mode); //对已打开的文件进行修改权限 int fchmod(int fd, mode_t mode); 1 2 3 #include &amp;lt;regex&amp;gt;//c++正则 C++03之前不支持 std::regex</summary>
             
             
             
@@ -102,7 +354,7 @@
             <title type="text">go语言校验密码强度</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/passwdcheck/" />
             <id>https://newdivide2014.github.io/zh/posts/passwdcheck/</id>
-            <updated>2022-03-26T10:18:15&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2022-03-16T14:32:47&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -143,7 +395,7 @@
             <title type="text">linux c access函数</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/c_access/" />
             <id>https://newdivide2014.github.io/zh/posts/c_access/</id>
-            <updated>2022-03-26T10:18:24&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2022-02-25T09:57:09&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -190,7 +442,7 @@
             <title type="text">编译Python3.9.7</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/compile-python3.9.7/" />
             <id>https://newdivide2014.github.io/zh/posts/compile-python3.9.7/</id>
-            <updated>2022-03-26T10:18:53&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2021-09-30T11:27:45&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -237,7 +489,7 @@
             <title type="text">/lib64/liblzma.so.5: version `XZ_5.1.2alpha&#39; not found</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/xz-5.2.2-breaks-rpm-command/" />
             <id>https://newdivide2014.github.io/zh/posts/xz-5.2.2-breaks-rpm-command/</id>
-            <updated>2022-03-26T10:26:00&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2021-08-31T13:48:18&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -278,7 +530,7 @@
             <title type="text">Ftp Common Commands</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/ftp-common-commands/" />
             <id>https://newdivide2014.github.io/zh/posts/ftp-common-commands/</id>
-            <updated>2022-03-26T10:20:15&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2021-08-27T10:00:49&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -319,7 +571,7 @@
             <title type="text">svn Can&#39;t convert string from &#39;UTF-8&#39; to native encoding</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/fix-svn-cannot-convert-string/" />
             <id>https://newdivide2014.github.io/zh/posts/fix-svn-cannot-convert-string/</id>
-            <updated>2022-03-26T10:19:53&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2021-08-27T09:26:40&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -357,10 +609,51 @@
         </entry>
     
         <entry>
+            <title type="text">编译upx</title>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/compile-upx/" />
+            <id>https://newdivide2014.github.io/zh/posts/compile-upx/</id>
+            <updated>2022-06-30T17:39:20&#43;08:00</updated>
+            <published>2021-06-30T16:30:40&#43;08:00</published>
+            <author>
+                    <name>嘟囔</name>
+                    <uri>https://newdivide2014.github.io/zh/</uri>
+                    <email>newdivide7037@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">编译upx记录</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/categories/upx/" term="upx" label="upx" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://newdivide2014.github.io/zh/tags/upx/" term="upx" label="upx" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">environ环境变量表 &amp; 库</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/environ-lib/" />
             <id>https://newdivide2014.github.io/zh/posts/environ-lib/</id>
-            <updated>2022-03-26T10:16:53&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2021-06-29T23:22:47&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -401,7 +694,7 @@
             <title type="text">Leetcode 1074.元素和为目标值的子矩阵数量</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/leetcode-1074/" />
             <id>https://newdivide2014.github.io/zh/posts/leetcode-1074/</id>
-            <updated>2021-08-23T16:38:37&#43;08:00</updated>
+            <updated>2021-06-10T19:56:01&#43;08:00</updated>
             <published>2021-05-29T21:41:56&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -501,7 +794,7 @@
             <title type="text">数据结构--树🌲</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/data-struct-tree/" />
             <id>https://newdivide2014.github.io/zh/posts/data-struct-tree/</id>
-            <updated>2022-03-26T10:19:30&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2021-05-26T00:24:44&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -759,7 +1052,7 @@
             <title type="text">qt程序在多屏下显示不全的问题</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/qt-ui-center-show/" />
             <id>https://newdivide2014.github.io/zh/posts/qt-ui-center-show/</id>
-            <updated>2022-03-26T10:22:26&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2021-04-24T22:53:56&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -789,47 +1082,6 @@
                             
                             
                                 <category scheme="https://newdivide2014.github.io/zh/tags/qt/" term="qt" label="qt" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Linux命令备忘</title>
-            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/linux-tar-cmd/" />
-            <id>https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</id>
-            <updated>2021-04-11T20:12:03&#43;08:00</updated>
-            <published>2021-04-11T20:12:03&#43;08:00</published>
-            <author>
-                    <name>嘟囔</name>
-                    <uri>https://newdivide2014.github.io/zh/</uri>
-                    <email>newdivide7037@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">tar 将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！ find 找到全局可写文件（word-writable file） 1 2 3 4 find / -xdev -type f \( -perm -0002 -a ! -perm -1000 \) -print # -type f 表示找文件 # -type d 表示找目录 # -type l 表示找链接文件</summary>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://newdivide2014.github.io/zh/categories/linux/" term="Linux" label="Linux" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://newdivide2014.github.io/zh/tags/linux-cmd/" term="linux cmd" label="linux cmd" />
                             
                         
                     
@@ -888,7 +1140,7 @@
             <title type="text">git常用命令</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/git-cmd/" />
             <id>https://newdivide2014.github.io/zh/posts/git-cmd/</id>
-            <updated>2021-04-21T12:46:20&#43;08:00</updated>
+            <updated>2022-03-30T10:39:20&#43;08:00</updated>
             <published>2021-01-16T20:30:40&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -970,7 +1222,7 @@
             <title type="text">华为交换机一些命令及回显信息</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/huawei-switch/" />
             <id>https://newdivide2014.github.io/zh/posts/huawei-switch/</id>
-            <updated>2022-03-26T10:21:30&#43;08:00</updated>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>2020-11-23T16:14:12&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
@@ -1015,16 +1267,16 @@
     
         <entry>
             <title type="text"></title>
-            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/tmp/" />
-            <id>https://newdivide2014.github.io/zh/posts/tmp/</id>
-            <updated>2022-02-25T11:37:28&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/linux-tar-cmd/" />
+            <id>https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</id>
+            <updated>2022-10-17T23:45:16&#43;08:00</updated>
             <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
                     <name>嘟囔</name>
                     <uri>https://newdivide2014.github.io/zh/</uri>
                     <email>newdivide7037@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Linux inotify详解 https://blog.csdn.net/breakout_alex/article/details/89028868 1 2 3 int fd = inotify_init (); int wd = inotify_add_watch (fd, path, mask); int ret = inotify_rm_watch (fd, wd); https://blog.csdn.net/daiyudong2020/article/details/51695502 ==https://blog.csdn.net/u011279649/article/details/52016555== ==https://blog.csdn.net/liuhengxiao/article/details/44171697== IN_IGNORED：监控被显式移除（调用inotify_rm_watch()），或者自动移除（文件被删除或者文件系统被卸载） https://blog.csdn.net/hanjw05/article/details/53860132 IN_ALL_EVENTS 以上所有flag的集合 加密原始文件 sh ../bmgjx/bin/dae_bmgjx.sh 8 /test/123.key userauth.txt userauth.txt.enc 1 编译加密解密调用openssl g++ zbtest.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr g++ Untitled-1.cpp -I/usr/local/ssl/include -lssl -lcrypto -ldl -L/usr/local/ssl/lib -I. -L/work/bmgjx/lib/ -lcryptokeymgr 1 C++: munmap_chunk(): invalid pointer 2017年2月22日 中午 336 字 1 分钟 指针问题绝对是C++ 中最令人头疼的问题……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">title: &amp;quot;Linux命令备忘&amp;quot; date: 2021-04-11T20:12:03+08:00 lastmod: 2021-04-11T20:12:03+08:00 draft: false keywords: [&amp;quot;linux cmd&amp;quot;] tags: [&amp;quot;linux cmd&amp;quot;] categories: [&amp;quot;Linux&amp;quot;] author: &amp;quot;嘟囔&amp;quot; authorEmoji: 👺 cover: image: &amp;quot;/images/post/DSC_0803.JPG&amp;quot; # can also paste direct link from external site # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png alt: &amp;quot;&amp;quot; caption: &amp;quot;俺家狗子&amp;quot; relative: false # To use relative path for cover image, used in hugo Page-bundles tar 将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！ find 找到全局可写文件（word-writable file） 1 2 3 4 5 6 7 find / -xdev -type f \(……</summary>
             
             
             
