@@ -889,9 +889,6 @@ In the example above users is a global variable, but what if the caller wanted t
         
             <script>
     function loadComments() {
-        if (!document.getElementById('vcomments')) {
-            return;
-        }
         if (typeof Valine === 'undefined') {
             var getScript = (options) => {
                 var script = document.createElement('script');

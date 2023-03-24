@@ -748,9 +748,6 @@ X_OK        已存在的文件或目录是否可执行</p>
         
             <script>
     function loadComments() {
-        if (!document.getElementById('vcomments')) {
-            return;
-        }
         if (typeof Valine === 'undefined') {
             var getScript = (options) => {
                 var script = document.createElement('script');

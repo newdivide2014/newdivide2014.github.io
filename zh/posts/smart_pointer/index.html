@@ -3,14 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-<<<<<<< HEAD
     <meta name="generator" content="Hugo 0.92.2" /><meta name="theme-color" content="#16171d" />
-=======
-    <meta name="generator" content="Hugo 0.87.0" /><meta name="theme-color" content="#16171d" />
-    <meta name="color-scheme" content="light dark">
-
-    
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -21,11 +14,7 @@
 
     <title>c&#43;&#43; 智能指针 | 嘟囔</title>
 
-<<<<<<< HEAD
     <link rel="stylesheet" href="../../../zh/css/meme.min.c4529955ddb473383030b500a78d86838260ec0b1387d7c354ccb33f2136ce71.css"/>
-=======
-    <link rel="stylesheet" href="../../../zh/css/meme.min.f61df8f6e042a6f8b560205ec4492d80cc00e6aa08139f717ae0c01e52c37c9f.css"/>
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
 
     
     
@@ -65,11 +54,7 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2023-03-22T09:39:58+08:00",
-<<<<<<< HEAD
         "dateModified": "2023-03-24T21:57:05+08:00",
-=======
-        "dateModified": "2023-03-24T15:50:25+08:00",
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
         "url": "https://newdivide2014.github.io/zh/posts/smart_pointer/",
         "headline": "c++ 智能指针",
         "description": "Smart Pointer",
@@ -118,11 +103,7 @@
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://newdivide2014.github.io/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2023-03-22T09:39:58&#43;08:00" />
-<<<<<<< HEAD
     <meta property="article:modified_time" content="2023-03-24T21:57:05&#43;08:00" />
-=======
-    <meta property="article:modified_time" content="2023-03-24T15:50:25&#43;08:00" />
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
     
     <meta property="article:section" content="posts" />
 
@@ -243,11 +224,7 @@
     
     
         
-<<<<<<< HEAD
         <time datetime="2023-03-24T21:57:05&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;Friday, March 24, 2023</time>
-=======
-        <time datetime="2023-03-24T15:50:25&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;Friday, March 24, 2023</time>
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
     
     
     
@@ -288,11 +265,7 @@
 </nav><div class="post-body e-content">
                 <p>C++中智能指针，有<code>shared_ptr</code>，<code>unique_ptr</code>，<code>weak_ptr</code></p>
 <h2 id="shared_ptr"><a href="#shared_ptr" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:shared_ptr" class="headings">shared_ptr</a></h2>
-<<<<<<< HEAD
 <p><code>shared_ptr</code>是多个指针指向一块内存。
-=======
-<p><code>shared_ptr</code>是多个指针指向一块内存。 
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
 被管理对象有一个引用计数，这个计数记录在每个指针上，有几个shared_ptr指向它，这个引用计数就是几，当没有任何shared_ptr指向它时，引用计数为0，这时，自动释放对象。</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -387,21 +360,13 @@
 <span class="p">}</span>
 </code></pre></td></tr></table></div>
 </div>
-<<<<<<< HEAD
 </div><p>这段程序会<code>double free detected</code>
-=======
-</div><p>这段程序会<code>double free detected</code> 
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
 这里用了两个智能指针管理同一块内存，因为<code>sp1</code> 和<code>sp2</code>不知道彼此的存在，所以也会重复释放。</p>
 <h2 id="unique_ptr"><a href="#unique_ptr" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:unique_ptr" class="headings">unique_ptr</a></h2>
 <p>一个<code>unique_ptr</code>“拥有”它所指向的对象，与<code>shared_ptr</code>不同，某个时刻只能有一个<code>unique_ptr</code>指向一个给定对象。当<code>unique_ptr</code>被销毁时，它所指向的对象也被销毁。</p>
 <p><code>unique_ptr</code>没有类似<code>shared_ptr</code>中<code>make_shared</code>的标准库函数返回一个<code>unique_ptr</code>，定义一个<code>unique_ptr</code>时，需要将它绑定到一个<code>new</code>返回的指针上，并且不能直接将<code>new</code>的结果用赋值运算符“=”赋值给<code>unique_ptr</code>（初始化方式必须采用直接初始化方式）。</p>
 <p>因为<code>unique_ptr</code>所指向的对象只能有一个<code>unique_ptr</code>指针，也就是一个引用计数。因此<code>unique_ptr</code>不支持普通的拷贝和赋值操作。</p>
-<<<<<<< HEAD
 <p>虽然两个<code>unique_ptr</code>不可以同时指向同一个内存对象，但是可以将一个即将销毁的<code>unique_ptr</code>指针拷贝或赋值给1另一个<code>unique_ptr</code>。
-=======
-<p>虽然两个<code>unique_ptr</code>不可以同时指向同一个内存对象，但是可以将一个即将销毁的<code>unique_ptr</code>指针拷贝或赋值给1另一个<code>unique_ptr</code>。 
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
 函数的参数传递和返回值就是很好的例子，在函数内部的<code>unique_ptr</code>指针随着作用域的结束会自动销毁，因此可以将其作为返回值，然后将内存传递给另一个<code>unique_ptr</code>指针管理。</p>
 <p><code>unique_ptr</code>之间不能拷贝与赋值。但是可以使用<code>release</code>和<code>reset</code>函数来将指针的所有权从一个（非const）<code>unique_ptr</code>转移给另一个<code>unique</code>。
 <code>unique_ptr</code>调用<code>release</code>函数之后必须将返回值传递给另一个<code>unqiue_ptr</code>，否则就会内存泄露。</p>
@@ -425,11 +390,7 @@
 </div>
 </div><h2 id="weak_ptr"><a href="#weak_ptr" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:weak_ptr" class="headings">weak_ptr</a></h2>
 <p>虽然<code>shared_ptr</code>是用来避免内存泄漏，可以自动释放内存。但<code>shared_ptr</code>在使用中可能存在循环引用，使引用计数失效，从而导致内存泄漏的。</p>
-<<<<<<< HEAD
 <p><code>weak_ptr</code>叫弱引用指针。是一种不控制对象生命周期的智能指针, 它指向一个<code>shared_ptr</code>管理的对象。<code>weak_ptr</code>设计的目的是为了协助<code>shared_ptr</code>而引入的一种智能指针，它可以解决<code>shared_ptr</code>循环引用的问题。
-=======
-<p><code>weak_ptr</code>叫弱引用指针。是一种不控制对象生命周期的智能指针, 它指向一个<code>shared_ptr</code>管理的对象。<code>weak_ptr</code>设计的目的是为了协助<code>shared_ptr</code>而引入的一种智能指针，它可以解决<code>shared_ptr</code>循环引用的问题。 
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
 <code>weak_ptr</code>只可以从一个<code>shared_ptr</code>或另一个<code>weak_ptr</code>对象来构造, 它的构造和析构不会引起引用记数的增加或减少。</p>
 <p><code>weak_ptr</code>在使用前需要检查合法性。调用<code>expired()</code>函数判断指针所指的内存空间是否被释放掉/指针是否为空/是否还有<code>shared_ptr</code>指针指向weak_ptr指向的内存空间。</p>
 <div class="highlight"><div class="chroma">
@@ -467,11 +428,7 @@
 <li>可以与常量表达式一同使用. 当该常量表达式为 true 才为显式转换(C++20起)。</li>
 </ol>
 <p>与它相对应的另一个关键字是<code>implicit</code>, 意思是隐藏的，类构造函数默认情况下即声明为<code>implicit</code>(隐式)。</p>
-<<<<<<< HEAD
 <p><code>explicit</code>关键字只对有一个参数的类构造函数有效, 如果类构造函数参数大于或等于两个时, 是不会产生隐式转换的, 所以<code>explicit</code>关键字也就无效了。
-=======
-<p><code>explicit</code>关键字只对有一个参数的类构造函数有效, 如果类构造函数参数大于或等于两个时, 是不会产生隐式转换的, 所以<code>explicit</code>关键字也就无效了。 
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
 但是也有一个例外, 就是当除了第一个参数以外的其他参数都有默认值的时候，<code>explicit</code>关键字依然有效, 此时, 当调用构造函数时只传入一个参数, 等效于只有一个参数的类构造函数,</p>
 
             </div>
@@ -501,11 +458,7 @@
 
         
     <div class="updated-badge-container">
-<<<<<<< HEAD
         <span title="Updated @ 2023-03-24 21:57:05 CST" style="cursor:help">
-=======
-        <span title="Updated @ 2023-03-24 15:50:25 CST" style="cursor:help">
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
 
 <svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-03-24</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-03-24</text></g></svg>
         </span></div>
@@ -804,12 +757,6 @@
         
             <script>
     function loadComments() {
-<<<<<<< HEAD
-=======
-        if (!document.getElementById('vcomments')) {
-            return;
-        }
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
         if (typeof Valine === 'undefined') {
             var getScript = (options) => {
                 var script = document.createElement('script');

@@ -23,11 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-<<<<<<< HEAD
-        <lastBuildDate>Fri, 24 Mar 2023 22:17:25 &#43;0800</lastBuildDate>
-=======
-        <lastBuildDate>Fri, 24 Mar 2023 19:05:03 &#43;0800</lastBuildDate>
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
+        <lastBuildDate>Fri, 24 Mar 2023 22:38:53 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
@@ -157,13 +153,8 @@
         
             <item>
                 <title>网球拍参数</title>
-<<<<<<< HEAD
                 <link>https://newdivide2014.github.io/zh/posts/tennis-racket/</link>
                 <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/tennis-racket/</guid>
-=======
-                <link>https://newdivide2014.github.io/zh/posts/tmp/</link>
-                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/tmp/</guid>
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
                 <pubDate>Fri, 26 Aug 2022 11:16:08 &#43;0800</pubDate>
                 
                     <author>newdivide7037@gmail.com (嘟囔)</author>
@@ -239,11 +230,7 @@
             </item>
         
             <item>
-<<<<<<< HEAD
                 <title>正则一些符号的含义</title>
-=======
-                <title>正则一些符号的含义&#34;</title>
->>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
                 <link>https://newdivide2014.github.io/zh/posts/regex/</link>
                 <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/regex/</guid>
                 <pubDate>Wed, 30 Mar 2022 10:47:09 &#43;0800</pubDate>
