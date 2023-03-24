@@ -663,6 +663,9 @@ However, for desktops with multiple screens, the size of the desktop is the unio
         
             <script>
     function loadComments() {
+        if (!document.getElementById('vcomments')) {
+            return;
+        }
         if (typeof Valine === 'undefined') {
             var getScript = (options) => {
                 var script = document.createElement('script');

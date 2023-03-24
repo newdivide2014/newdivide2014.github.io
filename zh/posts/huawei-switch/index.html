@@ -736,7 +736,11 @@ TCPCB    Tid/Soid Local Add:port        Foreign Add:port      VPNID  State
                     </li>
                 
                     <li class="related-item">
+<<<<<<< HEAD
                         <a href="../../../zh/posts/regex/" class="related-link">正则一些符号的含义</a>
+=======
+                        <a href="../../../zh/posts/regex/" class="related-link">正则一些符号的含义&quot;</a>
+>>>>>>> b26a47d544e532e5eb2001962ca0727c0deec15b
                     </li>
                 
                     <li class="related-item">
@@ -957,6 +961,9 @@ TCPCB    Tid/Soid Local Add:port        Foreign Add:port      VPNID  State
         
             <script>
     function loadComments() {
+        if (!document.getElementById('vcomments')) {
+            return;
+        }
         if (typeof Valine === 'undefined') {
             var getScript = (options) => {
                 var script = document.createElement('script');
