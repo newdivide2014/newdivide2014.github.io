@@ -23,10 +23,55 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 24 Mar 2023 18:53:25 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 24 Mar 2023 19:05:03 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
+        
+            <item>
+                <title>c&#43;&#43; 智能指针</title>
+                <link>https://newdivide2014.github.io/zh/posts/smart_pointer/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/smart_pointer/</guid>
+                <pubDate>Wed, 22 Mar 2023 09:39:58 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>Smart Pointer</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/c-/">c&#43;&#43;</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/c-/">c&#43;&#43;</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/smart-pointer/">Smart Pointer</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>strcasestr函数</title>

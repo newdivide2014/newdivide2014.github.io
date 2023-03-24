@@ -8,7 +8,7 @@
     <loc>https://newdivide2014.github.io/zh/categories/c-/</loc>
     <lastmod>2023-03-24T15:50:25+08:00</lastmod>
   </url><url>
-    <loc>https://newdivide2014.github.io/zh/smart_pointer/</loc>
+    <loc>https://newdivide2014.github.io/zh/posts/smart_pointer/</loc>
     <lastmod>2023-03-24T15:50:25+08:00</lastmod>
   </url><url>
     <loc>https://newdivide2014.github.io/zh/categories/</loc>
@@ -22,6 +22,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://newdivide2014.github.io/zh/categories/"
+                />
+  </url><url>
+    <loc>https://newdivide2014.github.io/zh/posts/</loc>
+    <lastmod>2023-03-24T15:50:25+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://newdivide2014.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://newdivide2014.github.io/zh/posts/"
                 />
   </url><url>
     <loc>https://newdivide2014.github.io/zh/tags/smart-pointer/</loc>
@@ -58,19 +71,6 @@
   </url><url>
     <loc>https://newdivide2014.github.io/zh/categories/linux/</loc>
     <lastmod>2023-03-22T09:40:37+08:00</lastmod>
-  </url><url>
-    <loc>https://newdivide2014.github.io/zh/posts/</loc>
-    <lastmod>2023-03-22T09:40:37+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://newdivide2014.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://newdivide2014.github.io/zh/posts/"
-                />
   </url><url>
     <loc>https://newdivide2014.github.io/zh/tags/strcasestr/</loc>
     <lastmod>2023-03-22T09:40:37+08:00</lastmod>
