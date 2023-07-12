@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">嘟囔</title>
     <subtitle type="html">嘟囔的学习小站</subtitle>
-    <updated>2023-07-12T08:18:01&#43;08:00</updated>
+    <updated>2023-07-12T08:37:45&#43;08:00</updated>
     <id>https://newdivide2014.github.io/zh/</id>
     <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/" />
     <link rel="self" type="application/atom&#43;xml" href="https://newdivide2014.github.io/zh/atom.xml" />
@@ -228,10 +228,10 @@
         </entry>
     
         <entry>
-            <title type="text">正则一些符号的含义&#34;</title>
+            <title type="text">正则一些符号的含义</title>
             <link rel="alternate" type="text/html" href="https://newdivide2014.github.io/zh/posts/regex/" />
             <id>https://newdivide2014.github.io/zh/posts/regex/</id>
-            <updated>2022-03-30T10:54:46&#43;08:00</updated>
+            <updated>2023-07-12T08:27:42&#43;08:00</updated>
             <published>2022-03-30T10:47:09&#43;08:00</published>
             <author>
                     <name>嘟囔</name>
