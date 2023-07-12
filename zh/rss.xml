@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 24 Mar 2023 19:05:03 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 12 Jul 2023 08:18:01 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://newdivide2014.github.io/zh/rss.xml" />
         
@@ -1052,6 +1052,45 @@
             </item>
         
             <item>
+                <title>Linux命令备忘</title>
+                <link>https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</link>
+                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</guid>
+                <pubDate>Sun, 11 Apr 2021 20:12:03 &#43;0800</pubDate>
+                
+                    <author>newdivide7037@gmail.com (嘟囔)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>tar 将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！ find 找到全局可写文件（word-writable file） 1 2 3 4 5 6 7 find / -xdev -type f \( -perm -0002 -a ! -perm -1000 \) -print # -type f 表示找文件 # -type d 表示找目录 # -type l 表示找链接文件 # To set sticky bit: find / -xdev -type d \( -perm -0002 -a ! -perm -1000 \) -print0| xargs -0 chmod +t ln 建立软链接的第一个参数和第二个参数哪个是目的文件，哪个是源文件总及布置 建立软链接（-s……</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/categories/linux/">Linux</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://newdivide2014.github.io/zh/tags/linux-cmd/">linux cmd</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
                 <title>RS485和RS232区别</title>
                 <link>https://newdivide2014.github.io/zh/posts/rs485-rs232/</link>
                 <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/rs485-rs232/</guid>
@@ -1214,29 +1253,6 @@
                                     <category domain="https://newdivide2014.github.io/zh/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/">交换机</category>
                                 
                             
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title></title>
-                <link>https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</link>
-                <guid isPermaLink="true">https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</guid>
-                <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-                
-                    <author>newdivide7037@gmail.com (嘟囔)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                <description>title: &amp;quot;Linux命令备忘&amp;quot; date: 2021-04-11T20:12:03+08:00 lastmod: 2021-04-11T20:12:03+08:00 draft: false keywords: [&amp;quot;linux cmd&amp;quot;] tags: [&amp;quot;linux cmd&amp;quot;] categories: [&amp;quot;Linux&amp;quot;] author: &amp;quot;嘟囔&amp;quot; authorEmoji: 👺 cover: image: &amp;quot;/images/post/DSC_0803.JPG&amp;quot; # can also paste direct link from external site # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png alt: &amp;quot;&amp;quot; caption: &amp;quot;俺家狗子&amp;quot; relative: false # To use relative path for cover image, used in hugo Page-bundles tar 将 /etc/ 内的所有档案备份下来，并且保存其权限！ [root@linux ~]# tar -czvpf /tmp/etc.tar.gz /etc 这个-p的属性是很重要的，尤其是当您要保留原本档案的属性时！ find 找到全局可写文件（word-writable file） 1 2 3 4 5 6 7 find / -xdev -type f \(……</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
                         
                     
                 
