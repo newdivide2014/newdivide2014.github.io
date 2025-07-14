@@ -7,5 +7,5 @@
 ---
 
 > : 嘟囔  
-> URL: https://newdivide2014.github.io/zh/zh/posts/windows-qtcreator-crush/  
+> URL: http://localhost:1313/zh/zh/posts/windows-qtcreator-crush/  
 

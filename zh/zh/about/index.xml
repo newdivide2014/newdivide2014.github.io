@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About | 西红柔蓝的小站</title>
+    <link>http://localhost:1313/zh/zh/about/</link>
+    <description>西红柔蓝的小站</description>
+    <generator>Hugo 0.148.0 &amp; FixIt v0.4.0-alpha-20250704082734-193fd193</generator>
+    <language>zh-CN</language>
+    <managingEditor>newdivide2014@outlook.com (柔蓝)</managingEditor>
+    <webMaster>newdivide2014@outlook.com (柔蓝)</webMaster>
+    <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/zh/about/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -11,5 +11,5 @@
 ---
 
 > : 嘟囔  
-> URL: https://newdivide2014.github.io/zh/zh/posts/linux-tar-cmd/  
+> URL: http://localhost:1313/zh/zh/posts/linux-tar-cmd/  
 

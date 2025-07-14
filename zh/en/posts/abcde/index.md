@@ -16,5 +16,5 @@ int main() {
 ---
 
 > : ToughMn  
-> URL: https://newdivide2014.github.io/zh/en/posts/abcde/  
+> URL: http://localhost:1313/zh/en/posts/abcde/  
 

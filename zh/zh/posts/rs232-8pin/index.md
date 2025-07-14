@@ -13,5 +13,5 @@
 ---
 
 > : 嘟囔  
-> URL: https://newdivide2014.github.io/zh/zh/posts/rs232-8pin/  
+> URL: http://localhost:1313/zh/zh/posts/rs232-8pin/  
 

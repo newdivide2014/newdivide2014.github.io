@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://newdivide2014.github.io/en/categories/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://newdivide2014.github.io/zh/categories/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://newdivide2014.github.io/categories/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://newdivide2014.github.io/en/categories/"/>
   </url>
   <url>
     <loc>https://newdivide2014.github.io/en/collections/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://newdivide2014.github.io/zh/collections/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://newdivide2014.github.io/collections/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://newdivide2014.github.io/en/collections/"/>
   </url>
   <url>
     <loc>https://newdivide2014.github.io/en/tags/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://newdivide2014.github.io/zh/tags/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://newdivide2014.github.io/tags/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://newdivide2014.github.io/en/tags/"/>
   </url>
   <url>
     <loc>https://newdivide2014.github.io/en/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://newdivide2014.github.io/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://newdivide2014.github.io/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://newdivide2014.github.io/en/"/>
   </url>
 </urlset>

@@ -40,5 +40,5 @@ SIOCSIFFLAGS: Operation not possible due to RF-kill
 ---
 
 > : 嘟囔  
-> URL: https://newdivide2014.github.io/zh/zh/posts/operation-not-possible-due-to-rf-kill/  
+> URL: http://localhost:1313/zh/zh/posts/operation-not-possible-due-to-rf-kill/  
 

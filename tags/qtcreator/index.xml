@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qtcreator - tag | 蓝红柿的小站</title>
+    <link>https://newdivide2014.github.io/tags/qtcreator/</link>
+    <description>蓝红柿的小站</description>
+    <generator>Hugo 0.148.0 &amp; FixIt v0.4.0-alpha-20250704082734-193fd193</generator>
+    <language>zh-CN</language>
+    <managingEditor>newdivide2014@outlook.com (蓝红柿)</managingEditor>
+    <webMaster>newdivide2014@outlook.com (蓝红柿)</webMaster>
+    <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
+    <lastBuildDate>Tue, 11 May 2021 10:39:18 +0800</lastBuildDate>
+    <atom:link href="https://newdivide2014.github.io/tags/qtcreator/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>windows上QtCreator经常未响应崩溃</title>
+      <link>https://newdivide2014.github.io/zh/posts/windows-qtcreator-crush/</link>
+      <pubDate>Tue, 11 May 2021 10:39:18 +0800</pubDate>
+      <guid>https://newdivide2014.github.io/zh/posts/windows-qtcreator-crush/</guid>
+      <category domain="https://newdivide2014.github.io/categories/qt/">Qt</category>
+      <description>&lt;p&gt;有道词典，滑词取词功能与QtCreator冲突，取消滑词取词功能，或直接退出有道词典！坑！&lt;/p&gt;&#xA;&lt;p&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;https://newdivide2014.github.io/images/posts/qtcreator-crush.jpeg&#34; title=&#34;无奈&#34; data-thumbnail=&#34;/images/posts/qtcreator-crush.jpeg&#34; data-sub-html=&#34;&lt;h2&gt;无奈&lt;/h2&gt;&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://newdivide2014.github.io/images/posts/qtcreator-crush.jpeg&#39; alt=&#34;无奈&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

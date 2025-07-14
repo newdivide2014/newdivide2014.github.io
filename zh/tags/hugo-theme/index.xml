@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Theme - tag | 蓝红柿的小站</title>
-    <link>https://newdivide2014.github.io/zh/tags/hugo-theme/</link>
+    <link>http://localhost:1313/zh/tags/hugo-theme/</link>
     <description>蓝红柿的小站</description>
-    <generator>Hugo 0.148.1 &amp; FixIt v0.4.0-alpha-20250704082734-193fd193</generator>
+    <generator>Hugo 0.148.0 &amp; FixIt v0.4.0-alpha-20250704082734-193fd193</generator>
     <language>zh-CN</language>
     <managingEditor>newdivide2014@outlook.com (蓝红柿)</managingEditor>
     <webMaster>newdivide2014@outlook.com (蓝红柿)</webMaster>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Mon, 24 May 2021 00:20:38 +0800</lastBuildDate>
-    <atom:link href="https://newdivide2014.github.io/zh/tags/hugo-theme/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/tags/hugo-theme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>沉迷换肤-建站小记</title>
-      <link>https://newdivide2014.github.io/zh/zh/posts/change-theme/</link>
+      <link>http://localhost:1313/zh/zh/posts/change-theme/</link>
       <pubDate>Sun, 10 Jan 2021 22:28:38 +0800</pubDate>
-      <guid>https://newdivide2014.github.io/zh/zh/posts/change-theme/</guid>
-      <category domain="https://newdivide2014.github.io/zh/categories/hugo-theme/">Hugo Theme</category>
+      <guid>http://localhost:1313/zh/zh/posts/change-theme/</guid>
+      <category domain="http://localhost:1313/zh/categories/hugo-theme/">Hugo Theme</category>
       <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;2021-5-23&lt;br&gt;&#xA;我又把主题换成了Meme～&lt;/p&gt;&#xA;&lt;p&gt;2021-4-不详&lt;br&gt;&#xA;把papermod换成了toha。。。&lt;br&gt;&#xA;把主题从jane换成了papermod。。。&lt;/p&gt;&#xA;&lt;p&gt;我可能是得了主题病阿！一天换了十几个主题～换的我是真的好累啊。。。&#xA;已经被炸干了。。。&#xA;好累～🐶&lt;/p&gt;</description>
     </item>
   </channel>

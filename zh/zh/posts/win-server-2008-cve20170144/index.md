@@ -45,5 +45,5 @@ exploit
 ---
 
 > : 嘟囔  
-> URL: https://newdivide2014.github.io/zh/zh/posts/win-server-2008-cve20170144/  
+> URL: http://localhost:1313/zh/zh/posts/win-server-2008-cve20170144/  
 

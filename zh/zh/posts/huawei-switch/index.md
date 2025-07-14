@@ -170,5 +170,5 @@ TCPCB    Tid/Soid Local Add:port        Foreign Add:port      VPNID  State
 ---
 
 > : 嘟囔  
-> URL: https://newdivide2014.github.io/zh/zh/posts/huawei-switch/  
+> URL: http://localhost:1313/zh/zh/posts/huawei-switch/  
 
