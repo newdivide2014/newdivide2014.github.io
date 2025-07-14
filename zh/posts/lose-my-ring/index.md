@@ -23,6 +23,6 @@
 
 ---
 
-> : 嘟囔  
+> : 蓝红柿  
 > URL: https://newdivide2014.github.io/zh/posts/lose-my-ring/  
 

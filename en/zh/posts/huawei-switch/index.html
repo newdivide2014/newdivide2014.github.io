@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>华为交换机一些命令及回显信息 | 蓝红柿的小站</title><meta name="author" content="蓝红柿">
+<meta name="description" content="华为交换机一些命令及回显信息"><meta name="keywords" content='华为, 交换机'>
+  <meta itemprop="name" content="华为交换机一些命令及回显信息">
+  <meta itemprop="description" content="华为交换机一些命令及回显信息">
+  <meta itemprop="datePublished" content="2020-11-23T16:14:12+08:00">
+  <meta itemprop="dateModified" content="2020-11-23T16:14:12+08:00">
+  <meta itemprop="wordCount" content="606">
+  <meta itemprop="image" content="http://localhost:1313/icons/apple-touch-icon.png">
+  <meta itemprop="keywords" content="华为,交换机"><meta property="og:url" content="http://localhost:1313/en/zh/posts/huawei-switch/">
+  <meta property="og:site_name" content="蓝红柿的小站">
+  <meta property="og:title" content="华为交换机一些命令及回显信息">
+  <meta property="og:description" content="华为交换机一些命令及回显信息">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="zh">
+    <meta property="article:published_time" content="2020-11-23T16:14:12+08:00">
+    <meta property="article:modified_time" content="2020-11-23T16:14:12+08:00">
+    <meta property="article:tag" content="华为">
+    <meta property="article:tag" content="交换机">
+    <meta property="og:image" content="http://localhost:1313/icons/apple-touch-icon.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/icons/apple-touch-icon.png">
+  <meta name="twitter:title" content="华为交换机一些命令及回显信息">
+  <meta name="twitter:description" content="华为交换机一些命令及回显信息">
+<meta name="application-name" content="蓝红柿">
+<meta name="apple-mobile-web-app-title" content="蓝红柿"><meta name="theme-color" data-light="#ffffff" data-dark="#252627" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" type="text/html" href="http://localhost:1313/en/zh/posts/huawei-switch/" title="华为交换机一些命令及回显信息 | 蓝红柿的小站" /><link rel="next" type="text/html" href="http://localhost:1313/en/zh/posts/change-theme/" title="沉迷换肤-建站小记" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/en/zh/posts/huawei-switch/index.md" title="华为交换机一些命令及回显信息 | 蓝红柿的小站"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "华为交换机一些命令及回显信息",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/en\/zh\/posts\/huawei-switch\/"
+    },"image": ["http:\/\/localhost:1313\/images\/apple-devices-preview.webp"],"genre": "zh","keywords": "华为, 交换机","wordcount":  606 ,
+    "url": "http:\/\/localhost:1313\/en\/zh\/posts\/huawei-switch\/","datePublished": "2020-11-23T16:14:12+08:00","dateModified": "2020-11-23T16:14:12+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+      "@type": "Organization",
+      "name": "蓝红柿","logo": "http:\/\/localhost:1313\/icons\/apple-touch-icon.png"},"author": {
+        "@type": "Person",
+        "name": "蓝红柿"
+      },"description": "华为交换机一些命令及回显信息"
+  }
+  </script><script src="/js/head/color-scheme.min.js"></script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/en/" title="蓝红柿的小站"><img class="logo" src='/icons/apple-touch-icon.png' alt="蓝红柿的小站" height="32" width="32"><span class="header-title-text">蓝红柿</span></a><span class="typeit header-subtitle"><template>Fortune favors the brave.</template></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item has-children">
+              <a class="menu-link" href="/en/archives/"><i class="fa-solid fa-feather fa-fw fa-sm" aria-hidden="true"></i> 文章</a><i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="/en/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/en/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/en/collections/"><i class="fa-solid fa-layer-group fa-fw fa-sm" aria-hidden="true"></i> 合集</a>
+                      </li></ul></li><li class="menu-item">
+              <a class="menu-link" href="/en/index.xml" title="通过 RSS 订阅"><i class="fa-solid fa-rss fa-fw fa-sm" aria-hidden="true"></i> RSS</a></li><li class="menu-item">
+              <a class="menu-link" href="/en/about/"><i class="fa-solid fa-quote-left fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li><li class="menu-item language-switch">
+            <span role="button" aria-label="Select Language" title="Select Language"><i class="fa-solid fa-language fa-fw" aria-hidden="true"></i></span>
+            <ul class="sub-menu"><li class="menu-item">No more translations</li></ul>
+          </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/en/" title="蓝红柿的小站"><img class="logo" src='/icons/apple-touch-icon.png' alt="蓝红柿的小站" height="26" width="26"><span class="header-title-text">蓝红柿</span></a><span class="typeit header-subtitle"><template>Fortune favors the brave.</template></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="menu-item"><span class="nested-item">
+                  <a class="menu-link" href="/en/archives/"><i class="fa-solid fa-feather fa-fw fa-sm" aria-hidden="true"></i> 文章</a>
+                  <i class="dropdown-icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </span>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="/en/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/en/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/en/collections/"><i class="fa-solid fa-layer-group fa-fw fa-sm" aria-hidden="true"></i> 合集</a>
+                      </li></ul></li><li class="menu-item"><a class="menu-link" href="/en/about/"><i class="fa-solid fa-quote-left fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="Switch Theme"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span><span class="menu-system-item language-switch">
+              <span role="button" aria-label="Select Language" title="Select Language">English<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i></span>
+              <select class="language-select" onchange="location = this.value;"><option disabled>No more translations</option></select>
+            </span></li>
+      </ul>
+    </nav>
+  </div>
+</header><nav aria-label="breadcrumb" class="breadcrumb-container sticky">
+    <ol class="breadcrumb"><li class="breadcrumb-item" data-separator="/"><a href="/en/zh/" title="Zhs">Zhs</a></li><li class="breadcrumb-item active" data-separator="/" aria-current="page">华为交换机一些命令及回显信息</li>
+    </ol>
+  </nav><main class="container"><article class="page single special">
+    <div class="header"><h1 class="single-title animate__animated animate__pulse animate__faster">华为交换机一些命令及回显信息</h1></div><div class="content" id="content"><!-- raw HTML omitted -->
+<ol>
+<li>显示版本信息</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">display version
+</span></span><span class="line"><span class="cl">Huawei Versatile Routing Platform Software
+</span></span><span class="line"><span class="cl">VRP <span class="o">(</span>R<span class="o">)</span> software, Version 5.110 <span class="o">(</span>S5700 V200R001C00SPC300<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Copyright <span class="o">(</span>C<span class="o">)</span> 2000-2012 HUAWEI TECH CO., LTD
+</span></span><span class="line"><span class="cl">Quidway S5700-24TP-SI-AC Routing Switch uptime is <span class="m">0</span> week, <span class="m">0</span> day, <span class="m">0</span> hour, <span class="m">10</span> minutes
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">CX22EFGEA 0<span class="o">(</span>Master<span class="o">)</span> : uptime is <span class="m">0</span> week, <span class="m">0</span> day, <span class="m">0</span> hour, <span class="m">10</span> minutes
+</span></span><span class="line"><span class="cl">256M bytes DDR Memory
+</span></span><span class="line"><span class="cl">32M bytes FLASH
+</span></span><span class="line"><span class="cl">Pcb      Version :  VER B
+</span></span><span class="line"><span class="cl">Basic  BOOTROM  Version :  <span class="m">162</span> Compiled at May <span class="m">31</span> 2012, 10:56:32
+</span></span><span class="line"><span class="cl">CPLD   Version : <span class="m">5</span> 
+</span></span><span class="line"><span class="cl">Software Version : VRP <span class="o">(</span>R<span class="o">)</span> Software, Version 5.110 <span class="o">(</span>V200R001C00SPC300<span class="o">)</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>显示当前配置</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display current-configuration configuration user-interface
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl">user-interface con <span class="m">0</span>
+</span></span><span class="line"><span class="cl"> authentication-mode password
+</span></span><span class="line"><span class="cl"> <span class="nb">set</span> authentication password cipher %$%<span class="nv">$1</span>V2:B<span class="p">|</span>!<span class="p">|</span>f%HSgrWXjj*W,e<span class="se">\S</span>bo<span class="o">{</span><span class="p">|</span>Km6oOGipQwSRK<span class="p">|</span>VI#kb<span class="o">]</span>%$%$
+</span></span><span class="line"><span class="cl">user-interface vty <span class="m">0</span> <span class="m">4</span>
+</span></span><span class="line"><span class="cl">user-interface vty <span class="m">16</span> <span class="m">20</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="k">return</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>显示ssh服务状态</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display ssh server status 
+</span></span><span class="line"><span class="cl"> SSH version                         :1.99
+</span></span><span class="line"><span class="cl"> SSH connection timeout              :60 seconds
+</span></span><span class="line"><span class="cl"> SSH server key generating interval  :0 hours
+</span></span><span class="line"><span class="cl"> SSH authentication retries          :3 <span class="nb">times</span>
+</span></span><span class="line"><span class="cl"> SFTP server                         :Disable
+</span></span><span class="line"><span class="cl"> Stelnet server                      :Disable
+</span></span><span class="line"><span class="cl"> Scp server                          :Disable</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>显示snmp状态</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display snmp-agent statistics
+</span></span><span class="line"><span class="cl">Error: SNMP agent is not enabled.</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="5">
+<li>显示telnet服务状态</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display telnet server status
+</span></span><span class="line"><span class="cl"> TELNET IPv4 server                       :Enable
+</span></span><span class="line"><span class="cl"> TELNET IPv6 server                       :Enable
+</span></span><span class="line"><span class="cl"> TELNET server port                       :23</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="6">
+<li>显示设备状态</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display device 
+</span></span><span class="line"><span class="cl">S5700-24TP-SI-AC<span class="err">&#39;</span>s Device status:
+</span></span><span class="line"><span class="cl">Slot  Sub  Type         Online    Power      Register       Status     Role  
+</span></span><span class="line"><span class="cl">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+</span></span><span class="line"><span class="cl"><span class="m">0</span>     -    5724TP       Present   PowerOn    Registered     Normal     Master</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="7">
+<li>显示环境(好像显示的是温度)</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display environment 
+</span></span><span class="line"><span class="cl">Environment information:
+</span></span><span class="line"><span class="cl">Temperature information:
+</span></span><span class="line"><span class="cl">SlotID   CurrentTemperature  LowLimit  HighLimit
+</span></span><span class="line"><span class="cl">             <span class="o">(</span>deg c <span class="o">)</span>        <span class="o">(</span>deg c<span class="o">)</span>   <span class="o">(</span>deg c <span class="o">)</span>        
+</span></span><span class="line"><span class="cl"> <span class="m">0</span>              <span class="m">41</span>             <span class="m">0</span>         <span class="m">92</span>              </span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="8">
+<li>显示ftp、http服务状态</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display ftp-server 
+</span></span><span class="line"><span class="cl">Info: The FTP server is already disabled.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;Quidway&gt;display http server
+</span></span><span class="line"><span class="cl">   HTTP Server Status              : disabled
+</span></span><span class="line"><span class="cl">   HTTP Server Port                : 80<span class="o">(</span>80<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   HTTP Timeout Interval           : <span class="m">20</span>
+</span></span><span class="line"><span class="cl">   Current Online Users            : <span class="m">0</span>
+</span></span><span class="line"><span class="cl">   Maximum Users Allowed           : <span class="m">5</span>
+</span></span><span class="line"><span class="cl">   HTTP Secure-server Status       : disabled
+</span></span><span class="line"><span class="cl">   HTTP Secure-server Port         : 443<span class="o">(</span>443<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   HTTP SSL Policy                 : </span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="9">
+<li>显示icmp状态</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display icmp statistics 
+</span></span><span class="line"><span class="cl">  Input: bad formats            <span class="m">0</span>      bad checksum                     <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         <span class="nb">echo</span>                   <span class="m">0</span>      destination unreachable          <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         <span class="nb">source</span> quench          <span class="m">0</span>      redirects                        <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         <span class="nb">echo</span> reply             <span class="m">0</span>      parameter problem                <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         timestamp              <span class="m">0</span>      information request              <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         mask requests          <span class="m">0</span>      mask replies                     <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         <span class="nb">time</span> exceeded          <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         Mping request          <span class="m">0</span>      Mping reply                      <span class="m">0</span>
+</span></span><span class="line"><span class="cl">  Output:echo                   <span class="m">0</span>      destination unreachable          <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         <span class="nb">source</span> quench          <span class="m">0</span>      redirects                        <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         <span class="nb">echo</span> reply             <span class="m">0</span>      parameter problem                <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         timestamp              <span class="m">0</span>      information reply                <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         mask requests          <span class="m">0</span>      mask replies                     <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         <span class="nb">time</span> exceeded          <span class="m">0</span>
+</span></span><span class="line"><span class="cl">         Mping request          <span class="m">0</span>      Mping reply                      <span class="m">0</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="10">
+<li>显示本地用户</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display local-user 
+</span></span><span class="line"><span class="cl">  ----------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">  User-name                      State  AuthMask  AdminLevel  
+</span></span><span class="line"><span class="cl">  ----------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">  admin                          A      H         -          
+</span></span><span class="line"><span class="cl">  ----------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">  Total <span class="m">1</span> user<span class="o">(</span>s<span class="o">)</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="11">
+<li>显示ntp服务状态</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display ntp-service status
+</span></span><span class="line"><span class="cl"> clock status: unsynchronized 
+</span></span><span class="line"><span class="cl"> clock stratum: <span class="m">16</span> 
+</span></span><span class="line"><span class="cl"> reference clock ID: none
+</span></span><span class="line"><span class="cl"> nominal frequency: 60.0002 Hz 
+</span></span><span class="line"><span class="cl"> actual frequency: 60.0002 Hz 
+</span></span><span class="line"><span class="cl"> clock precision: 2^17
+</span></span><span class="line"><span class="cl"> clock offset: 0.0000 ms 
+</span></span><span class="line"><span class="cl"> root delay: 0.00 ms 
+</span></span><span class="line"><span class="cl"> root dispersion: 0.00 ms 
+</span></span><span class="line"><span class="cl"> peer dispersion: 0.00 ms 
+</span></span><span class="line"><span class="cl"> reference time: 00:00:00.000 UTC Jan <span class="m">1</span> 1900<span class="o">(</span>00000000.00000000<span class="o">)</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="12">
+<li>显示radius服务授权配置和显示radius服务配置</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display radius-server authorization configuration 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="m">0</span> Radius authorization server<span class="o">(</span>s<span class="o">)</span> in total
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;Quidway&gt;display radius-server configuration 
+</span></span><span class="line"><span class="cl">  Total of radius template :0 </span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="13">
+<li>显示ssl策略</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display ssl policy 
+</span></span><span class="line"><span class="cl">Error: No policy exists.</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="14">
+<li>显示tcp状态</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">&lt;Quidway&gt;display tcp status
+</span></span><span class="line"><span class="cl">TCPCB    Tid/Soid Local Add:port        Foreign Add:port      VPNID  State
+</span></span><span class="line"><span class="cl">0d4315d0 102/1    0.0.0.0:23            0.0.0.0:0             -1     Listening</span></span></code></pre></td></tr></table>
+</div>
+</div></div></article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered order-1">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.148.0"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.0-alpha-20250704082734-193fd193"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright order-2" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2018 - 2025</span><span class="author" itemprop="copyrightHolder">
+              <a href="/en/">蓝红柿</a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div><div class="footer-line statistics order-3"><span class="site-time" title='Website running ...'><i class="fa-solid fa-heartbeat fa-fw animate-icon" aria-hidden="true"></i><span class="ms-1 d-none">博客已运行</span><span class="run-times ms-1">Website running ...</span></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Back to Top"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric">0%</span>
+        </div></div><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;--bg-progress: #8581dd;--bg-progress-dark: #fff;"></div><noscript>
+    <div class="noscript-warning">This website works best with JavaScript enabled.</div>
+  </noscript>
+</div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="stylesheet" href="/lib/pace/themes/green/pace-theme-flash.css"><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.js?features=Array.prototype.fill%2CArray.prototype.find%2CArray.from%2CIntersectionObserver%2CMath.sign%2CObject.assign%2CPromise%2CObject.entries%2Chtml5shiv%2CObject.values%2Cfetch%2CElement.prototype.after"></script><script src="/lib/instant-page/instantpage.min.js" async defer type="module"></script><script src="/lib/lightgallery/lightgallery.min.js" defer></script><script src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js" defer></script><script src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/typeit/index.umd.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script src="/lib/pangu/pangu.min.js" defer></script><script src="/lib/pace/pace.min.js" async defer></script><script>window.config={"autoBookmark":true,"code":{"copyTitle":"Copy to clipboard","editLockTitle":"Lock editable code block","editUnLockTitle":"Unlock editable code block","editable":true,"maxShownLines":50},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"pangu":{"enable":true,"selector":"article"},"siteTime":"2021-05-24T00:20:38+08:00","typeit":{"cursorChar":"|","cursorSpeed":1000,"duration":-1,"loop":false,"speed":100},"version":"v0.4.0-alpha-20250704082734-193fd193"};console.log('Page config:', window.config);</script><script src="/js/theme.min.js" defer></script></body>
+</html>

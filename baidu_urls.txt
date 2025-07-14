@@ -1,4 +1,3 @@
-https://newdivide2014.github.io/en/posts/test/
 https://newdivide2014.github.io/zh/posts/leetcode-1074/
 https://newdivide2014.github.io/zh/posts/win-server-2008-cve20170144/
 https://newdivide2014.github.io/zh/posts/english-grammer/

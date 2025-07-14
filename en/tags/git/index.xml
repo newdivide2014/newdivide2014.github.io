@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git - Tag | 蓝红柿的小站</title>
+    <link>http://localhost:1313/en/tags/git/</link>
+    <description>蓝红柿的小站</description>
+    <generator>Hugo 0.148.0 &amp; FixIt v0.4.0-alpha-20250704082734-193fd193</generator>
+    <language>en</language>
+    <managingEditor>newdivide2014@outlook.com (蓝红柿)</managingEditor>
+    <webMaster>newdivide2014@outlook.com (蓝红柿)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 21 Apr 2021 12:46:20 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git常用命令</title>
+      <link>http://localhost:1313/en/zh/posts/git-cmd/</link>
+      <pubDate>Sat, 16 Jan 2021 20:30:40 +0800</pubDate><author>newdivide2014@outlook.com (蓝红柿)</author>
+      <guid>http://localhost:1313/en/zh/posts/git-cmd/</guid>
+      <category domain="http://localhost:1313/en/categories/git/">Git</category>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;记录一些常用的git命令，忘记的时候来翻翻看。&lt;/p&gt;&#xA;&lt;h3 class=&#34;heading-element&#34; id=&#34;git常用命令&#34;&gt;&lt;span&gt;0.11 git常用命令&lt;/span&gt;&#xA;  &lt;a href=&#34;#git%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;查看当前git用户的配置&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt; git config --list&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;配置用户信息&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt; git config --global user.name &amp;quot;xxx&amp;quot;&#xA; git config --global user.email &amp;quot;xxx@xxx&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;开始新的项目，初始化新的仓库&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt; git init &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;把文件/目录加入暂存区（stage）例子是把当前目录下的所有文件加入到暂存区。&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt; git add .&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;把文件或目录从暂存区（stage）移除&#xA;git rm &amp;ndash;cached ./demo.txt&#xA;此刻./demo.txt文件已经从暂存区域删除，但是仍在当前目录下，如果想把该文件也从工作目录中删除，执行&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt; git rm ./demo.txt&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;git提交忽略某些文件&#xA;有些不需要git管理的文件比如.o文件等，可以在跟目录下创建一个名为**.gitignore**，然后在此文件里添加：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt; *.o&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;所有空行或&lt;code&gt;#&lt;/code&gt;开头的行都会被忽略，以上的设置在每次提交是就会忽略所有的.o文件。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

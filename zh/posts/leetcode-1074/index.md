@@ -159,6 +159,6 @@ void delete_all() {
 
 ---
 
-> : 嘟囔  
+> : 蓝红柿  
 > URL: https://newdivide2014.github.io/zh/posts/leetcode-1074/  
 

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>RS485和RS232区别 | 蓝红柿的小站</title><meta name="author" content="蓝红柿">
+<meta name="description" content="RS485和RS232区别"><meta name="keywords" content='RS485, RS232'>
+  <meta itemprop="name" content="RS485和RS232区别">
+  <meta itemprop="description" content="RS485和RS232区别">
+  <meta itemprop="datePublished" content="2021-01-16T21:17:37+08:00">
+  <meta itemprop="dateModified" content="2021-01-16T21:17:37+08:00">
+  <meta itemprop="wordCount" content="1183">
+  <meta itemprop="image" content="http://localhost:1313/icons/apple-touch-icon.png">
+  <meta itemprop="keywords" content="RS485,RS232"><meta property="og:url" content="http://localhost:1313/zh/zh/posts/rs485-rs232/">
+  <meta property="og:site_name" content="蓝红柿的小站">
+  <meta property="og:title" content="RS485和RS232区别">
+  <meta property="og:description" content="RS485和RS232区别">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="zh">
+    <meta property="article:published_time" content="2021-01-16T21:17:37+08:00">
+    <meta property="article:modified_time" content="2021-01-16T21:17:37+08:00">
+    <meta property="article:tag" content="RS485">
+    <meta property="article:tag" content="RS232">
+    <meta property="og:image" content="http://localhost:1313/icons/apple-touch-icon.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/icons/apple-touch-icon.png">
+  <meta name="twitter:title" content="RS485和RS232区别">
+  <meta name="twitter:description" content="RS485和RS232区别">
+<meta name="application-name" content="蓝红柿">
+<meta name="apple-mobile-web-app-title" content="蓝红柿"><meta name="theme-color" data-light="#ffffff" data-dark="#252627" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" type="text/html" href="http://localhost:1313/zh/zh/posts/rs485-rs232/" title="RS485和RS232区别 | 蓝红柿的小站" /><link rel="prev" type="text/html" href="http://localhost:1313/zh/zh/posts/git-cmd/" title="git常用命令" /><link rel="next" type="text/html" href="http://localhost:1313/zh/zh/posts/linux-tar-cmd/" title="Linux tar备忘" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/zh/zh/posts/rs485-rs232/index.md" title="RS485和RS232区别 | 蓝红柿的小站"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "RS485和RS232区别",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/zh\/zh\/posts\/rs485-rs232\/"
+    },"image": ["http:\/\/localhost:1313\/images\/apple-devices-preview.webp"],"genre": "zh","keywords": "RS485, RS232","wordcount":  1183 ,
+    "url": "http:\/\/localhost:1313\/zh\/zh\/posts\/rs485-rs232\/","datePublished": "2021-01-16T21:17:37+08:00","dateModified": "2021-01-16T21:17:37+08:00","license": "本站内容采用 CC BY-NC-SA 4.0 国际许可协议。","publisher": {
+      "@type": "Organization",
+      "name": "蓝红柿","logo": "http:\/\/localhost:1313\/icons\/apple-touch-icon.png"},"author": {
+        "@type": "Person",
+        "name": "蓝红柿"
+      },"description": "RS485和RS232区别"
+  }
+  </script><script src="/js/head/color-scheme.min.js"></script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/zh/" title="蓝红柿的小站"><img class="logo" src='/icons/apple-touch-icon.png' alt="蓝红柿的小站" height="32" width="32"><span class="header-title-text">蓝红柿</span></a><span class="typeit header-subtitle"><template>Fortune favors the brave.</template></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item has-children">
+              <a class="menu-link" href="/zh/archives/"><i class="fa-solid fa-feather fa-fw fa-sm" aria-hidden="true"></i> 文章</a><i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="/zh/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/zh/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/zh/collections/"><i class="fa-solid fa-layer-group fa-fw fa-sm" aria-hidden="true"></i> 合集</a>
+                      </li></ul></li><li class="menu-item">
+              <a class="menu-link" href="/zh/index.xml" title="通过 RSS 订阅"><i class="fa-solid fa-rss fa-fw fa-sm" aria-hidden="true"></i> RSS</a></li><li class="menu-item">
+              <a class="menu-link" href="/zh/about/"><i class="fa-solid fa-quote-left fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li><li class="menu-item language-switch">
+            <span role="button" aria-label="" title=""><i class="fa-solid fa-language fa-fw" aria-hidden="true"></i></span>
+            <ul class="sub-menu"><li class="menu-item"></li></ul>
+          </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/zh/" title="蓝红柿的小站"><img class="logo" src='/icons/apple-touch-icon.png' alt="蓝红柿的小站" height="26" width="26"><span class="header-title-text">蓝红柿</span></a><span class="typeit header-subtitle"><template>Fortune favors the brave.</template></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="menu-item"><span class="nested-item">
+                  <a class="menu-link" href="/zh/archives/"><i class="fa-solid fa-feather fa-fw fa-sm" aria-hidden="true"></i> 文章</a>
+                  <i class="dropdown-icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </span>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="/zh/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/zh/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/zh/collections/"><i class="fa-solid fa-layer-group fa-fw fa-sm" aria-hidden="true"></i> 合集</a>
+                      </li></ul></li><li class="menu-item"><a class="menu-link" href="/zh/about/"><i class="fa-solid fa-quote-left fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title=""><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span><span class="menu-system-item language-switch">
+              <span role="button" aria-label="" title="">简体中文<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i></span>
+              <select class="language-select" onchange="location = this.value;"><option disabled></option></select>
+            </span></li>
+      </ul>
+    </nav>
+  </div>
+</header><nav aria-label="breadcrumb" class="breadcrumb-container sticky">
+    <ol class="breadcrumb"><li class="breadcrumb-item" data-separator="/"><a href="/zh/zh/" title="Zhs">Zhs</a></li><li class="breadcrumb-item active" data-separator="/" aria-current="page">RS485和RS232区别</li>
+    </ol>
+  </nav><main class="container"><article class="page single special">
+    <div class="header"><h1 class="single-title animate__animated animate__pulse animate__faster">RS485和RS232区别</h1></div><div class="content" id="content"><h2 class="heading-element" id="rs485和rs232"><span>1 RS485和RS232</span>
+  <a href="#rs485%e5%92%8crs232" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>RS232标准诞生于RS485之前，但RS232有几处不足的地方：</p>
+<ol>
+<li>
+<p>接口的信号电平值较高，达到时机伏，使用不当容易损坏接口芯片，电平标准也与TTL电平不兼容。</p>
+</li>
+<li>
+<p>传输速率有局限，不可以过高，一般到一两百千比特每秒（Kb/s）就到极限了。</p>
+</li>
+<li>
+<p>接口使用信号线和GND与其他设备形成共地模式的通信，这种共地模式传输容易产生干扰，并且抗干扰能力比较弱。</p>
+</li>
+<li>
+<p>传输距离有限，最多只能通信几十米。</p>
+</li>
+<li>
+<p>通信的时候只能两点之间进行通信，不能够实现多机制联网通信。
+针对RS232接口的不足，就不断出现了一些新的接口标准，RS485就是其中之一，它具备以下特点：</p>
+</li>
+<li>
+<p>采用差分信号。差分最大的好处就是可以抑制共模干扰。尤其当工业现场环境比较复杂，干扰比较多是，采用差分方式可以有效的提高通信可靠性。RS485 采用两根通信线，通常用 A 和 B 或者 D+和 D-来表示。逻辑“1”以两线之间的电压差为+(0.2<sub>6)V 表示，逻辑“0”以两线间的电压差为-(0.2</sub>6)V 来表示，是一种典型的差分通信。</p>
+</li>
+<li>
+<p>RS485通信速率快，最大传输速度可达10Mb/s。</p>
+</li>
+<li>
+<p>RS485内部的物理结构，采用的平衡驱动器和差分接收器的组合，抗干扰能力也大大增强。</p>
+</li>
+<li>
+<p>传输距离最远可以达到1200米左右，但它的传输速率和传输距离成反比。只有在 100Kb/s 以下的传输速度，才能达到最大的通信距离，如果需要传输更远距离可以使用中继。</p>
+</li>
+<li>
+<p>可以在总线上进行联网实现多机通信，总线上允许挂多个收发器，从现有的 RS485芯片来看，有可以挂 32、64、128、256 等不同个设备的驱动器。</p>
+</li>
+<li>
+<p>RS485 的接口非常简单，与 RS232 所使用的 MAX232 是类似的，只需要一个 RS485转换器，就可以直接与单片机的 UART 串口连接起来，并且使用完全相同的异步串行通信协议。但是由于 RS485 是差分通信，因此接收数据和发送数据是不能同时进行的，也就是说它是一种半双工通信。</p>
+</li>
+</ol>
+<p>RS485是一个物理接口，简单的说是硬件。 MODBUS是一种国际标准的通讯协议，用于不同厂商之间的设备交换数据（一般是工业用途）；</p>
+<h2 class="heading-element" id="modbus简单了解"><span>2 Modbus简单了解</span>
+  <a href="#modbus%e7%ae%80%e5%8d%95%e4%ba%86%e8%a7%a3" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>一般情况下，两台设备通过MODBUS协议传输数据： 最早是用RS232C作为硬件接口，（也就是普通电脑上的串行通讯口（串口））； 也有用RS422的， 也有常用的RS485，这种接口传输距离远，在一般工业现场用的比较多。</p>
+<p>MODBUS协议又分MODBUS RTU，MODBUS ASCII和后来发展的MODBUS TCP三种模式： 其中前两种（MODBUS RTU，MODBUS ASCII）所用的物理硬件接口都是串行（Serial）通讯口（RS232，RS422，RS485）。 而MODBUS TCP则是为了顺应当今世界发展潮流，什么都可以用Ethernet网或Internet来连接，传送数据。所以又MODBUS TCP模式，该模式的硬件接口就是以太网（Ethernet）口了，也就是我们电脑上一般用的网络口了。</p>
+</div></article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered order-1">
+        </div><div class="footer-line copyright order-2" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2018 - 2025</span><span class="author" itemprop="copyrightHolder">
+              <a href="/zh/">蓝红柿</a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div><div class="footer-line statistics order-3"><span class="site-time" title=''><i class="fa-solid fa-heartbeat fa-fw animate-icon" aria-hidden="true"></i><span class="ms-1 d-none">博客已运行</span><span class="run-times ms-1"></span></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label=""><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric">0%</span>
+        </div></div><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;--bg-progress: #8581dd;--bg-progress-dark: #fff;"></div><noscript>
+    <div class="noscript-warning"></div>
+  </noscript>
+</div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="stylesheet" href="/lib/pace/themes/green/pace-theme-flash.css"><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.js?features=Array.prototype.fill%2CArray.prototype.find%2CArray.from%2CIntersectionObserver%2CMath.sign%2CObject.assign%2CPromise%2CObject.entries%2Chtml5shiv%2CObject.values%2Cfetch%2CElement.prototype.after"></script><script src="/lib/instant-page/instantpage.min.js" async defer type="module"></script><script src="/lib/lightgallery/lightgallery.min.js" defer></script><script src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js" defer></script><script src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/typeit/index.umd.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script src="/lib/pangu/pangu.min.js" defer></script><script src="/lib/pace/pace.min.js" async defer></script><script>window.config={"autoBookmark":true,"code":{"copyTitle":"","editLockTitle":"","editUnLockTitle":"","editable":true,"maxShownLines":50},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"","link":"","message":""},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"pangu":{"enable":true,"selector":"article"},"siteTime":"2021-05-24T00:20:38+08:00","typeit":{"cursorChar":"|","cursorSpeed":1000,"duration":-1,"loop":false,"speed":100},"version":"v0.4.0-alpha-20250704082734-193fd193"};console.log('Page config:', window.config);</script><script src="/js/theme.min.js" defer></script></body>
+</html>

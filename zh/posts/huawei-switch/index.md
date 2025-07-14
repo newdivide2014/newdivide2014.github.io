@@ -169,6 +169,6 @@ TCPCB    Tid/Soid Local Add:port        Foreign Add:port      VPNID  State
 
 ---
 
-> : 嘟囔  
+> : 蓝红柿  
 > URL: https://newdivide2014.github.io/zh/posts/huawei-switch/  
 

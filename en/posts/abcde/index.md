@@ -15,6 +15,6 @@ int main() {
 
 ---
 
-> : ToughMn  
+> : Blue tomato  
 > URL: https://newdivide2014.github.io/en/posts/abcde/  
 
