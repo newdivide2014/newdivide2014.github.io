@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>Git常用命令 | 蓝红柿的小站</title><meta name="author" content="嘟囔">
+<meta name="description" content="git常用命令"><meta name="keywords" content='git'>
+  <meta itemprop="name" content="git常用命令">
+  <meta itemprop="description" content="git常用命令">
+  <meta itemprop="datePublished" content="2021-01-16T20:30:40+08:00">
+  <meta itemprop="dateModified" content="2021-04-21T12:46:20+08:00">
+  <meta itemprop="wordCount" content="1871">
+  <meta itemprop="image" content="https://newdivide2014.github.io/icons/apple-touch-icon.png">
+  <meta itemprop="keywords" content="git"><meta property="og:url" content="https://newdivide2014.github.io/zh/zh/posts/git-cmd/">
+  <meta property="og:site_name" content="蓝红柿的小站">
+  <meta property="og:title" content="git常用命令">
+  <meta property="og:description" content="git常用命令">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="zh">
+    <meta property="article:published_time" content="2021-01-16T20:30:40+08:00">
+    <meta property="article:modified_time" content="2021-04-21T12:46:20+08:00">
+    <meta property="article:tag" content="Git">
+    <meta property="og:image" content="https://newdivide2014.github.io/icons/apple-touch-icon.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://newdivide2014.github.io/icons/apple-touch-icon.png">
+  <meta name="twitter:title" content="git常用命令">
+  <meta name="twitter:description" content="git常用命令">
+<meta name="application-name" content="蓝红柿">
+<meta name="apple-mobile-web-app-title" content="蓝红柿"><meta name="theme-color" data-light="#ffffff" data-dark="#252627" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" type="text/html" href="https://newdivide2014.github.io/zh/zh/posts/git-cmd/" title="git常用命令 | 蓝红柿的小站" /><link rel="prev" type="text/html" href="https://newdivide2014.github.io/zh/zh/posts/change-theme/" title="沉迷换肤-建站小记" /><link rel="next" type="text/html" href="https://newdivide2014.github.io/zh/zh/posts/rs485-rs232/" title="RS485和RS232区别" /><link rel="alternate" type="text/markdown" href="https://newdivide2014.github.io/zh/zh/posts/git-cmd/index.md" title="git常用命令 | 蓝红柿的小站"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "git常用命令",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https:\/\/newdivide2014.github.io\/zh\/zh\/posts\/git-cmd\/"
+    },"image": ["https:\/\/newdivide2014.github.io\/images\/apple-devices-preview.webp"],"genre": "zh","keywords": "git","wordcount":  1871 ,
+    "url": "https:\/\/newdivide2014.github.io\/zh\/zh\/posts\/git-cmd\/","datePublished": "2021-01-16T20:30:40+08:00","dateModified": "2021-04-21T12:46:20+08:00","license": "本站内容采用 CC BY-NC-SA 4.0 国际许可协议。","publisher": {
+      "@type": "Organization",
+      "name": "Lruihao","logo": "https:\/\/newdivide2014.github.io\/images\/avatar.jpg"},"author": {
+        "@type": "Person",
+        "name": "嘟囔"
+      },"description": "git常用命令"
+  }
+  </script><script src="/js/head/color-scheme.min.js"></script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/zh/" title="蓝红柿的小站"><img class="logo" src='/icons/apple-touch-icon.png' alt="蓝红柿的小站" height="32" width="32"><span class="header-title-text">蓝红柿</span></a><span class="typeit header-subtitle"><template>Fortune favors the brave.</template></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item has-children">
+              <a class="menu-link" href="/zh/archives/"><i class="fa-solid fa-feather fa-fw fa-sm" aria-hidden="true"></i> 文章</a><i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="/zh/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/zh/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/zh/collections/"><i class="fa-solid fa-layer-group fa-fw fa-sm" aria-hidden="true"></i> 合集</a>
+                      </li></ul></li><li class="menu-item">
+              <a class="menu-link" href="/zh/index.xml" title="通过 RSS 订阅"><i class="fa-solid fa-rss fa-fw fa-sm" aria-hidden="true"></i> RSS</a></li><li class="menu-item">
+              <a class="menu-link" href="/zh/about/"><i class="fa-solid fa-quote-left fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li><li class="menu-item language-switch">
+            <span role="button" aria-label="" title=""><i class="fa-solid fa-language fa-fw" aria-hidden="true"></i></span>
+            <ul class="sub-menu"><li class="menu-item"></li></ul>
+          </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/zh/" title="蓝红柿的小站"><img class="logo" src='/icons/apple-touch-icon.png' alt="蓝红柿的小站" height="26" width="26"><span class="header-title-text">蓝红柿</span></a><span class="typeit header-subtitle"><template>Fortune favors the brave.</template></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="menu-item"><span class="nested-item">
+                  <a class="menu-link" href="/zh/archives/"><i class="fa-solid fa-feather fa-fw fa-sm" aria-hidden="true"></i> 文章</a>
+                  <i class="dropdown-icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </span>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="/zh/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/zh/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/zh/collections/"><i class="fa-solid fa-layer-group fa-fw fa-sm" aria-hidden="true"></i> 合集</a>
+                      </li></ul></li><li class="menu-item"><a class="menu-link" href="/zh/about/"><i class="fa-solid fa-quote-left fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title=""><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span><span class="menu-system-item language-switch">
+              <span role="button" aria-label="" title="">简体中文<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i></span>
+              <select class="language-select" onchange="location = this.value;"><option disabled></option></select>
+            </span></li>
+      </ul>
+    </nav>
+  </div>
+</header><nav aria-label="breadcrumb" class="breadcrumb-container sticky">
+    <ol class="breadcrumb"><li class="breadcrumb-item" data-separator="/"><a href="/zh/zh/" title="Zhs">Zhs</a></li><li class="breadcrumb-item active" data-separator="/" aria-current="page">Git常用命令</li>
+    </ol>
+  </nav><main class="container"><article class="page single special">
+    <div class="header"><h1 class="single-title animate__animated animate__pulse animate__faster">Git常用命令</h1></div><div class="content" id="content"><!-- raw HTML omitted -->
+<p>记录一些常用的git命令，忘记的时候来翻翻看。</p>
+<h3 class="heading-element" id="git常用命令"><span>0.1 git常用命令</span>
+  <a href="#git%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li>
+<p>查看当前git用户的配置</p>
+<pre><code> git config --list
+</code></pre>
+</li>
+<li>
+<p>配置用户信息</p>
+<pre><code> git config --global user.name &quot;xxx&quot;
+ git config --global user.email &quot;xxx@xxx&quot;
+</code></pre>
+</li>
+<li>
+<p>开始新的项目，初始化新的仓库</p>
+<pre><code> git init 
+</code></pre>
+</li>
+<li>
+<p>把文件/目录加入暂存区（stage）例子是把当前目录下的所有文件加入到暂存区。</p>
+<pre><code> git add .
+</code></pre>
+</li>
+<li>
+<p>把文件或目录从暂存区（stage）移除
+git rm &ndash;cached ./demo.txt
+此刻./demo.txt文件已经从暂存区域删除，但是仍在当前目录下，如果想把该文件也从工作目录中删除，执行</p>
+<pre><code> git rm ./demo.txt
+</code></pre>
+</li>
+<li>
+<p>git提交忽略某些文件
+有些不需要git管理的文件比如.o文件等，可以在跟目录下创建一个名为**.gitignore**，然后在此文件里添加：</p>
+<pre><code> *.o
+</code></pre>
+</li>
+</ol>
+<p>所有空行或<code>#</code>开头的行都会被忽略，以上的设置在每次提交是就会忽略所有的.o文件。</p>
+<ol start="7">
+<li>
+<p>修改最后一次提交
+有时执行了<code>git commit -m &quot;XXX&quot;</code>后，发现还有一些文件没有添加到暂存区，想撤回刚刚的提交操作，可以使用以下命令修改最后一次的提交信息</p>
+<pre><code> git commit -amend 
+</code></pre>
+</li>
+<li>
+<p>查看历史</p>
+<pre><code> git log
+ # 查看text.c文件的所有改动历史，
+ # 每条记录显示在一行
+ git log --pretty=oneline test.c
+</code></pre>
+</li>
+<li>
+<p>恢复单个文件历史版本</p>
+<pre><code> # 得到text.c的历史版本号
+ git log text.c 
+ # 恢复到版本为2e17053b时候的text.c文件
+ git reset 2e17053b
+</code></pre>
+</li>
+<li>
+<p>查看你曾使用过的git命令
+git reflog用来记录你的每一次命令</p>
+</li>
+</ol>
+<h3 class="heading-element" id="git分支相关"><span>0.2 git分支相关</span>
+  <a href="#git%e5%88%86%e6%94%af%e7%9b%b8%e5%85%b3" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li>
+<p>推送远程分支</p>
+<pre><code> git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程分支名&gt;
+ git push origin local:remote
+ # 示例
+ git push origin master
+ # 表示将本地的master分支推送到远程的origin主线的master分支
+ # 如果master不存在，则会被新建
+</code></pre>
+</li>
+<li>
+<p>创建新的分支并切换</p>
+<pre><code> git checkout -b &lt;本地分支名&gt; &lt;远程分支名&gt;
+ # 示例：
+ git checkout -b dev origin/master
+ # 从远程拉取dev分支到本地,命名为develop，并切换到develop分支
+ git checkout -b develop origin/dev
+</code></pre>
+</li>
+<li>
+<p>删除分支</p>
+<pre><code> # 删除远程分支
+ git push origin :&lt;远程分支名&gt;
+ git push origin :dev
+ # 等同于
+ git push origin --delete &lt;远程分支名&gt;
+
+ # 删除本地分支
+ git branch -D &lt;本地分支&gt;
+</code></pre>
+</li>
+<li>
+<p>查看各个分支最后一个提交对象的信息</p>
+<pre><code> git branch -v
+</code></pre>
+</li>
+<li>
+<p>查看与当前分支 合并/未合并 的分支</p>
+<pre><code> # 与当前分支已经合并的分支
+ git branch --merged
+ # 与当前分支未合并的分支
+ git branch --no-merged
+</code></pre>
+</li>
+<li>
+<p>同步远程服务器数据到本地</p>
+<pre><code> git fetch origin
+</code></pre>
+</li>
+<li>
+<p>对于<code>git pull</code>的理解</p>
+</li>
+</ol>
+<p><code>git pull</code>的过程可以理解为：</p>
+<pre><code>    git fetch origin master 
+    git merge FETCH_HEAD
+    # 完整的格式为：
+    git pull &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;
+    # 如果远程分支是与当前分支合并，则冒号后面的部分可以省略，例如：
+    git pull origin dev
+</code></pre>
+<ol start="8">
+<li>分支的合并</li>
+</ol>
+<p>把一个分支整合到另一个分支有两种方法：<code>merge</code>和<code>rebase</code>（衍合）
+<code>merge</code>是把两个分支最新的快照和二者最新的共同祖先进行三方合并，产生一个新的提交对象。
+<code>rebase</code>单独写</p>
+<h3 class="heading-element" id="git-stash缓存本地仓库工作目录"><span>0.3 git stash缓存本地仓库工作目录</span>
+  <a href="#git-stash%e7%bc%93%e5%ad%98%e6%9c%ac%e5%9c%b0%e4%bb%93%e5%ba%93%e5%b7%a5%e4%bd%9c%e7%9b%ae%e5%bd%95" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li>
+<p>执行存储时，添加备注，方便查找，只有<code>git stash</code>也可以的，但查找时不方便。</p>
+<pre><code> git stash save &quot;save message&quot;
+</code></pre>
+</li>
+<li>
+<p>查看stash了哪些存储</p>
+<pre><code> git stash list 
+</code></pre>
+</li>
+<li>
+<p>显示做了哪些改动，默认show第一个存储,如果要显示其他存贮，后面加<code>stash@{$num}</code>。</p>
+<pre><code> git stash show
+ # 显示第二个存储改动
+ git stash show stash@{1}
+</code></pre>
+</li>
+<li>
+<p>显示存储的改动，默认显示第一个。</p>
+<pre><code>git stash show -p
+git stash show  stash@{$num}  -p
+# 显示第二个存储的改动
+git stash show  stash@{1}  -p
+</code></pre>
+</li>
+<li>
+<p>应用某个存储,但不会把存储从存储列表中删除，默认使用第一个存储。</p>
+<pre><code> git stash apply
+ git stash apply stash@{$num}
+ # 应用第二个
+ git stash apply stash@{1}
+</code></pre>
+</li>
+<li>
+<p>命令恢复之前缓存的工作目录，将缓存堆栈中的对应stash删除，并将对应修改应用到当前的工作目录下，默认为第一个stash。</p>
+<pre><code> git stash pop
+ git stash pop stash@{$num}
+ # 应用并删除第二个
+ git stash pop stash@{1}
+</code></pre>
+</li>
+<li>
+<p>丢弃stash@{$num}存储，从列表中删除这个存储</p>
+<pre><code> git stash drop stash@{$num}
+</code></pre>
+</li>
+<li>
+<p>删除所有缓存的stash</p>
+<pre><code>  git stash clear
+</code></pre>
+</li>
+</ol>
+<h3 class="heading-element" id="git-submodule相关"><span>0.4 git submodule相关</span>
+  <a href="#git-submodule%e7%9b%b8%e5%85%b3" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li>添加第三方git仓库</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="c1"># path是该子模块存储的目录路径</span>
+</span></span><span class="line"><span class="cl">git submodule add &lt;url&gt; &lt;path&gt;
+</span></span><span class="line"><span class="cl"><span class="c1"># 例子</span>
+</span></span><span class="line"><span class="cl">git submodule add https://XXXXXXX.git /home/user</span></span></code></pre></td></tr></table>
+</div>
+</div><p>添加完成后会在.gitmodules中看到每个submodule的信息。</p>
+<ol start="2">
+<li>将第三方git仓库同步到主线</li>
+</ol>
+<p>克隆仓库后，默认子模块的目录下是空的，需要在本地仓库根目录把子模块拉到本地，用到命令如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git submodule init
+</span></span><span class="line"><span class="cl">git submodule update
+</span></span><span class="line"><span class="cl">或者：
+</span></span><span class="line"><span class="cl">git submodule update 
+</span></span><span class="line"><span class="cl"><span class="c1"># 例子</span>
+</span></span><span class="line"><span class="cl">git clone https://XXXXXXX.git
+</span></span><span class="line"><span class="cl">git submodule init <span class="o">&amp;&amp;</span> git submodule update
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#下面这句的效果和上面的命令效果一样</span>
+</span></span><span class="line"><span class="cl">git clone https://XXXXXXX.git --recursive</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>删除submodule</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git submodule deinit &lt;submodule-name&gt;</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 class="heading-element" id="faqs"><span>0.5 FAQs</span>
+  <a href="#faqs" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li>执行 git remote add [shortname] [url] 如果提示：remote origin already exists.</li>
+</ol>
+<p>则先删除：git remote rm origin
+然后再添加：git remote add origin <a href="https://XXXX.git"target="_blank" rel="external nofollow noopener noreferrer">https://XXXX.git<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></p>
+<ol start="2">
+<li>git add 操作时，有时会误添加一些不想提交的文件，如何解决？
+误add单个文件</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git reset HEAD 将file退回到unstage区</span></span></code></pre></td></tr></table>
+</div>
+</div><p>误add多个文件，只撤销部分文件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git reset HEAD 将file退回到unstage区</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>windows git bash 在使用<code>git log</code>时中文乱码</li>
+</ol>
+<p>执行命令<code>export LANG=”zh_CN.UTF-8</code>就好了</p>
+</div></article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered order-1">
+        </div><div class="footer-line copyright order-2" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2018 - 2025</span><span class="author" itemprop="copyrightHolder">
+              <a href="/zh/">蓝红柿</a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div><div class="footer-line statistics order-3"><span class="site-time" title=''><i class="fa-solid fa-heartbeat fa-fw animate-icon" aria-hidden="true"></i><span class="ms-1 d-none">博客已运行</span><span class="run-times ms-1"></span></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label=""><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric">0%</span>
+        </div></div><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;--bg-progress: #8581dd;--bg-progress-dark: #fff;"></div><noscript>
+    <div class="noscript-warning"></div>
+  </noscript>
+</div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="stylesheet" href="/lib/pace/themes/green/pace-theme-flash.css"><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.js?features=Array.prototype.fill%2CArray.prototype.find%2CArray.from%2CIntersectionObserver%2CMath.sign%2CObject.assign%2CPromise%2CObject.entries%2Chtml5shiv%2CObject.values%2Cfetch%2CElement.prototype.after"></script><script src="/lib/instant-page/instantpage.min.js" async defer type="module"></script><script src="/lib/lightgallery/lightgallery.min.js" defer></script><script src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js" defer></script><script src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/typeit/index.umd.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script src="/lib/pangu/pangu.min.js" defer></script><script src="/lib/cell-watermark/watermark.min.js" defer></script><script src="/lib/pace/pace.min.js" async defer></script><script>var postChatConfig={"addButton":true,"backgroundColor":"#6a64d5","blackDom":[".expiration-reminder","meting-js",".lnt"],"bottom":"","defaultChatQuestions":["你是谁?","Lruihao 是谁?","作者的开源项目有哪些？"],"defaultInput":false,"defaultSearchQuestions":["给你的 Markdown 挑挑刺","中文技术文档的写作规范","语义版本控制（SemVer）","Vue.js 相关的文章","FixIt 相关的文档","现代 CSS 解决方案","拖拽式仪表盘系列 ","程序猿的自我修养","CSS 奇技淫巧","作者的随笔"],"fill":"","frameHeight":"","frameWidth":"","height":"","hotWords":true,"left":"","showInviteLink":true,"upLoadWeb":true,"userDesc":"如果你对网站的内容有任何疑问，可以来问我哦～","userIcon":"/images/avatar.jpg","userMode":"magic","userTitle":"Cell+","width":""}</script><script src="https://ai.zhheo.com/static/public/postChatUser.min.js" defer data-postChat_key="ed872bf9336506bea545183089f5034f81fea6af"></script><script>window.config={"autoBookmark":true,"code":{"copyTitle":"","editLockTitle":"","editUnLockTitle":"","editable":true,"maxShownLines":50},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"","link":"","message":""},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"enablePWA":true,"lightgallery":true,"pangu":{"enable":true,"selector":"article"},"siteTime":"2021-05-24T00:20:38+08:00","typeit":{"cursorChar":"|","cursorSpeed":1000,"duration":-1,"loop":false,"speed":100},"version":"v0.4.0-alpha-20250704082734-193fd193","watermark":{"colspacing":30,"content":"\u003cimg style=\"height: 0.85rem;\" src=\"/logo.webp\" alt=\"logo\" /\u003e 李瑞豪","enable":true,"fontfamily":"MMT_LRH,沐目体","fontsize":1.1,"height":20,"opacity":0.0125,"rotate":15,"rowspacing":60,"width":150}};</script><script src="/js/theme.min.js" defer></script></body>
+</html>
