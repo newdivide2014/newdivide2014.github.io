@@ -24,5 +24,5 @@
 ---
 
 > : 蓝红柿  
-> URL: https://newdivide2014.github.io/zh/posts/lose-my-ring/  
+> URL: http://localhost:1313/zh/posts/lose-my-ring/  
 

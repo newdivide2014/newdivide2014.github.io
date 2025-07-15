@@ -19,8 +19,14 @@
     <lastmod>2021-05-29T21:41:56+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/leetcode-1074/</loc>
+    <loc>https://newdivide2014.github.io/posts/leetcode-1074/</loc>
     <lastmod>2021-05-29T21:41:56+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://newdivide2014.github.io/posts/</loc>
+    <lastmod>2021-05-29T21:41:56+08:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://newdivide2014.github.io/en/posts/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://newdivide2014.github.io/posts/"/>
   </url>
   <url>
     <loc>https://newdivide2014.github.io/tags/</loc>
@@ -33,17 +39,13 @@
     <lastmod>2021-05-29T21:41:56+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/</loc>
-    <lastmod>2021-05-29T21:41:56+08:00</lastmod>
-  </url>
-  <url>
     <loc>https://newdivide2014.github.io/</loc>
     <lastmod>2021-05-29T21:41:56+08:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://newdivide2014.github.io/en/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://newdivide2014.github.io/"/>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/win-server-2008-cve20170144/</loc>
+    <loc>https://newdivide2014.github.io/posts/win-server-2008-cve20170144/</loc>
     <lastmod>2021-05-26T18:08:33+08:00</lastmod>
   </url>
   <url>
@@ -67,7 +69,7 @@
     <lastmod>2021-05-24T00:02:39+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/english-grammer/</loc>
+    <loc>https://newdivide2014.github.io/posts/english-grammer/</loc>
     <lastmod>2021-05-24T00:02:39+08:00</lastmod>
   </url>
   <url>
@@ -83,7 +85,7 @@
     <lastmod>2021-05-11T10:39:18+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/windows-qtcreator-crush/</loc>
+    <loc>https://newdivide2014.github.io/posts/windows-qtcreator-crush/</loc>
     <lastmod>2021-05-11T10:39:18+08:00</lastmod>
   </url>
   <url>
@@ -95,7 +97,7 @@
     <lastmod>2021-05-11T10:23:30+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/operation-not-possible-due-to-rf-kill/</loc>
+    <loc>https://newdivide2014.github.io/posts/operation-not-possible-due-to-rf-kill/</loc>
     <lastmod>2021-05-11T10:23:30+08:00</lastmod>
   </url>
   <url>
@@ -111,7 +113,7 @@
     <lastmod>2021-05-10T09:55:52+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/lose-my-ring/</loc>
+    <loc>https://newdivide2014.github.io/posts/lose-my-ring/</loc>
     <lastmod>2021-05-10T09:55:52+08:00</lastmod>
   </url>
   <url>
@@ -119,7 +121,7 @@
     <lastmod>2021-05-08T10:51:45+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/rs232-8pin/</loc>
+    <loc>https://newdivide2014.github.io/posts/rs232-8pin/</loc>
     <lastmod>2021-05-08T10:51:45+08:00</lastmod>
   </url>
   <url>
@@ -127,20 +129,8 @@
     <lastmod>2021-05-08T10:51:45+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/qt-ui-center-show/</loc>
+    <loc>https://newdivide2014.github.io/posts/qt-ui-center-show/</loc>
     <lastmod>2021-04-24T22:53:56+08:00</lastmod>
-  </url>
-  <url>
-    <loc>https://newdivide2014.github.io/en/</loc>
-    <lastmod>2021-04-21T11:24:25+08:00</lastmod>
-  </url>
-  <url>
-    <loc>https://newdivide2014.github.io/tags/test/</loc>
-    <lastmod>2021-04-21T11:24:25+08:00</lastmod>
-  </url>
-  <url>
-    <loc>https://newdivide2014.github.io/en/posts/abcde/</loc>
-    <lastmod>2021-04-21T11:24:25+08:00</lastmod>
   </url>
   <url>
     <loc>https://newdivide2014.github.io/categories/linux-cmd/</loc>
@@ -151,7 +141,7 @@
     <lastmod>2021-04-11T20:12:03+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/linux-tar-cmd/</loc>
+    <loc>https://newdivide2014.github.io/posts/linux-tar-cmd/</loc>
     <lastmod>2021-04-11T20:12:03+08:00</lastmod>
   </url>
   <url>
@@ -159,7 +149,7 @@
     <lastmod>2021-01-16T21:17:37+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/rs485-rs232/</loc>
+    <loc>https://newdivide2014.github.io/posts/rs485-rs232/</loc>
     <lastmod>2021-01-16T21:17:37+08:00</lastmod>
   </url>
   <url>
@@ -171,7 +161,7 @@
     <lastmod>2021-04-21T12:46:20+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/git-cmd/</loc>
+    <loc>https://newdivide2014.github.io/posts/git-cmd/</loc>
     <lastmod>2021-04-21T12:46:20+08:00</lastmod>
   </url>
   <url>
@@ -183,7 +173,7 @@
     <lastmod>2021-05-24T00:20:38+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/change-theme/</loc>
+    <loc>https://newdivide2014.github.io/posts/change-theme/</loc>
     <lastmod>2021-05-24T00:20:38+08:00</lastmod>
   </url>
   <url>
@@ -191,7 +181,7 @@
     <lastmod>2020-11-23T16:14:12+08:00</lastmod>
   </url>
   <url>
-    <loc>https://newdivide2014.github.io/zh/posts/huawei-switch/</loc>
+    <loc>https://newdivide2014.github.io/posts/huawei-switch/</loc>
     <lastmod>2020-11-23T16:14:12+08:00</lastmod>
   </url>
   <url>

@@ -45,5 +45,5 @@ int main(int argc, char *argv[])
 ---
 
 > : 蓝红柿  
-> URL: https://newdivide2014.github.io/zh/posts/qt-ui-center-show/  
+> URL: http://localhost:1313/zh/posts/qt-ui-center-show/  
 

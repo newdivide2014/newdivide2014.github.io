@@ -11,5 +11,5 @@
 ---
 
 > : 蓝红柿  
-> URL: https://newdivide2014.github.io/zh/posts/linux-tar-cmd/  
+> URL: http://localhost:1313/zh/posts/linux-tar-cmd/  
 

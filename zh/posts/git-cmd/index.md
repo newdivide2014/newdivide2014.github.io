@@ -228,5 +228,5 @@ git reset HEAD 将file退回到unstage区
 ---
 
 > : 蓝红柿  
-> URL: https://newdivide2014.github.io/zh/posts/git-cmd/  
+> URL: http://localhost:1313/zh/posts/git-cmd/  
 

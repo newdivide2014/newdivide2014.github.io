@@ -160,5 +160,5 @@ void delete_all() {
 ---
 
 > : 蓝红柿  
-> URL: https://newdivide2014.github.io/zh/posts/leetcode-1074/  
+> URL: http://localhost:1313/zh/posts/leetcode-1074/  
 

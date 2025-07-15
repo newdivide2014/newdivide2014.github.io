@@ -15,6 +15,6 @@ int main() {
 
 ---
 
-> : Blue tomato  
+> Author: Blue tomato  
 > URL: https://newdivide2014.github.io/en/posts/abcde/  
 
