@@ -4,6 +4,15 @@
 
  by [蓝红柿]().
 
+## 2025
+
+<details>
+<summary></summary>
+
+- 07-29 [C++ make_shared使用](https://newdivide2014.github.io/posts/make-shared/ "2025-07-29 11:16:33")
+
+</details>
+
 ## 2021
 
 <details>
