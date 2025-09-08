@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>硬件相关 on 蓝红柿</title>
     <link>https://newdivide2014.github.io/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/</link>
     <description>Recent content in 硬件相关 on 蓝红柿</description>
-    <image>
-      <title>蓝红柿</title>
-      <url>https://newdivide2014.github.io/author.jpg</url>
-      <link>https://newdivide2014.github.io/author.jpg</link>
-    </image>
-    <generator>Hugo -- 0.148.1</generator>
+    <generator>Hugo</generator>
     <language>zh</language>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Sat, 08 May 2021 10:51:45 +0800</lastBuildDate>
@@ -19,67 +14,14 @@
       <link>https://newdivide2014.github.io/posts/rs232-8pin/</link>
       <pubDate>Sat, 08 May 2021 10:51:45 +0800</pubDate>
       <guid>https://newdivide2014.github.io/posts/rs232-8pin/</guid>
-      <description>&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;管脚&lt;/th&gt;
-          &lt;th&gt;缩写&lt;/th&gt;
-          &lt;th&gt;英文释义&lt;/th&gt;
-          &lt;th&gt;中文释义&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;1&lt;/td&gt;
-          &lt;td&gt;CD&lt;/td&gt;
-          &lt;td&gt;Carrier Detect&lt;/td&gt;
-          &lt;td&gt;载波检测&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;2　&lt;/td&gt;
-          &lt;td&gt;RXD&lt;/td&gt;
-          &lt;td&gt;Receive Data　　　　&lt;/td&gt;
-          &lt;td&gt;接收&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;3　&lt;/td&gt;
-          &lt;td&gt;TXD　　　　&lt;/td&gt;
-          &lt;td&gt;Transmit Data　　　&lt;/td&gt;
-          &lt;td&gt;发送&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;4　&lt;/td&gt;
-          &lt;td&gt;DTR　　　　&lt;/td&gt;
-          &lt;td&gt;Data Terminal Ready&lt;/td&gt;
-          &lt;td&gt;数据终端就绪&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;5　&lt;/td&gt;
-          &lt;td&gt;GND　　　　&lt;/td&gt;
-          &lt;td&gt;System Ground　&lt;/td&gt;
-          &lt;td&gt;系统接地&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;6　&lt;/td&gt;
-          &lt;td&gt;DSR　　　　&lt;/td&gt;
-          &lt;td&gt;Data Set Ready&lt;/td&gt;
-          &lt;td&gt;数据设备就绪&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;7　&lt;/td&gt;
-          &lt;td&gt;RTS　　　　&lt;/td&gt;
-          &lt;td&gt;Clear To Send&lt;/td&gt;
-          &lt;td&gt;允许发送&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</description>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;管脚&lt;/th&gt;&#xA;          &lt;th&gt;缩写&lt;/th&gt;&#xA;          &lt;th&gt;英文释义&lt;/th&gt;&#xA;          &lt;th&gt;中文释义&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;CD&lt;/td&gt;&#xA;          &lt;td&gt;Carrier Detect&lt;/td&gt;&#xA;          &lt;td&gt;载波检测&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2　&lt;/td&gt;&#xA;          &lt;td&gt;RXD&lt;/td&gt;&#xA;          &lt;td&gt;Receive Data　　　　&lt;/td&gt;&#xA;          &lt;td&gt;接收&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;3　&lt;/td&gt;&#xA;          &lt;td&gt;TXD　　　　&lt;/td&gt;&#xA;          &lt;td&gt;Transmit Data　　　&lt;/td&gt;&#xA;          &lt;td&gt;发送&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;4　&lt;/td&gt;&#xA;          &lt;td&gt;DTR　　　　&lt;/td&gt;&#xA;          &lt;td&gt;Data Terminal Ready&lt;/td&gt;&#xA;          &lt;td&gt;数据终端就绪&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;5　&lt;/td&gt;&#xA;          &lt;td&gt;GND　　　　&lt;/td&gt;&#xA;          &lt;td&gt;System Ground　&lt;/td&gt;&#xA;          &lt;td&gt;系统接地&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;6　&lt;/td&gt;&#xA;          &lt;td&gt;DSR　　　　&lt;/td&gt;&#xA;          &lt;td&gt;Data Set Ready&lt;/td&gt;&#xA;          &lt;td&gt;数据设备就绪&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;7　&lt;/td&gt;&#xA;          &lt;td&gt;RTS　　　　&lt;/td&gt;&#xA;          &lt;td&gt;Clear To Send&lt;/td&gt;&#xA;          &lt;td&gt;允许发送&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
     <item>
       <title>RS485和RS232区别</title>
       <link>https://newdivide2014.github.io/posts/rs485-rs232/</link>
       <pubDate>Sat, 16 Jan 2021 21:17:37 +0800</pubDate>
       <guid>https://newdivide2014.github.io/posts/rs485-rs232/</guid>
-      <description>RS485和RS232区别</description>
+      <description>&lt;h2 id=&#34;rs485和rs232&#34; class=&#34;relative group&#34;&gt;RS485和RS232 &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#rs485%e5%92%8crs232&#34; aria-label=&#34;&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;RS232标准诞生于RS485之前，但RS232有几处不足的地方：&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

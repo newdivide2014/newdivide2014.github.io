@@ -1,243 +1,624 @@
-<!DOCTYPE html>
-<html lang="zh" dir="auto">
 
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Linux | 蓝红柿</title>
-<meta name="keywords" content="">
-<meta name="description" content="蓝红柿的学习备忘录">
-<meta name="author" content="蓝红柿">
-<link rel="canonical" href="https://newdivide2014.github.io/categories/linux/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://newdivide2014.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://newdivide2014.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://newdivide2014.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://newdivide2014.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://newdivide2014.github.io/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://newdivide2014.github.io/categories/linux/index.xml">
-<link rel="alternate" hreflang="zh" href="https://newdivide2014.github.io/categories/linux/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
 
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
 
-            .list {
-                background: var(--theme);
-            }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
 
-    </style>
-</noscript><meta property="og:url" content="https://newdivide2014.github.io/categories/linux/">
+
+<!doctype html>
+<html
+  lang="zh"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Linux &middot; 蓝红柿</title>
+    <meta name="title" content="Linux &middot; 蓝红柿" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="https://newdivide2014.github.io/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://newdivide2014.github.io/css/main.bundle.min.3082ea863ad6f853e321a98a9736a82d2fe662f8197971ace1ac85fc09d03197.css"
+    integrity="sha256-MILqhjrW&#43;FPjIamKlzaoLS/mYvgZeXGs4ayF/AnQMZc="
+  />
+  
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="https://newdivide2014.github.io/js/main.bundle.min.eb18dcb25558ad5dcbc8a080261d2f3b2957309098f6f19a294cefb78492bfc7.js"
+      integrity="sha256-6xjcslVYrV3LyKCAJh0vOylXMJCY9vGaKUzvt4SSv8c="
+      data-copy=""
+      data-copied=""
+    ></script>
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        蓝红柿的学习备忘录
+      
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="https://newdivide2014.github.io/categories/linux/" />
+  
+  <link rel="alternate" type="application/rss+xml" href="https://newdivide2014.github.io/categories/linux/index.xml" title="蓝红柿" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="https://newdivide2014.github.io/categories/linux/">
   <meta property="og:site_name" content="蓝红柿">
   <meta property="og:title" content="Linux">
   <meta property="og:description" content="蓝红柿的学习备忘录">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="website">
-      <meta property="og:image" content="https://newdivide2014.github.io/author.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://newdivide2014.github.io/author.jpg">
-<meta name="twitter:title" content="Linux">
-<meta name="twitter:description" content="蓝红柿的学习备忘录">
 
-</head>
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Linux">
+  <meta name="twitter:description" content="蓝红柿的学习备忘录">
 
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
+  
+  
 
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="https://newdivide2014.github.io/" accesskey="h" title="蓝红柿 (Alt + H)">
-                <img src="https://newdivide2014.github.io/author.jpg" alt="" aria-label="logo"
-                    height="35">蓝红柿</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-                <ul class="lang-switch"><li>|</li>
-                    <li>
-                        <a href="https://newdivide2014.github.io/en/" title="English"
-                            aria-label="English">English</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="https://newdivide2014.github.io/search/" title="搜索">
-                    <span>搜索</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://newdivide2014.github.io/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://newdivide2014.github.io/tags/" title="标签">
-                    <span>标签</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://newdivide2014.github.io/categories/" title="分类">
-                    <span>分类</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://newdivide2014.github.io/about/" title="关于">
-                    <span>关于</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://newdivide2014.github.io/">主页</a>&nbsp;»&nbsp;<a href="https://newdivide2014.github.io/categories/">Categories</a></div>
-  <h1>
-    Linux
-  </h1>
-</header>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">SIOCSIFFLAGS: Operation Not Possible Due to RF Kill
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>问题描述 报错信息：SIOCSIFFLAGS: Operation not possible due to RF-kill
-我想让一块无线网卡up起来，结果没想到报错了
-1 2 [root@localhost opt]# ifconfig wls35u1 up SIOCSIFFLAGS: Operation not possible due to RF-kill 查了一下，RF-KILL是一个打开和关闭无线设备的工具。 所以这是一打开无线设备（wifi）的错误。
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2021-05-11 10:23:30 +0800 CST'>五月 11, 2021</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;257 字&nbsp;·&nbsp;嘟囔</footer>
-  <a class="entry-link" aria-label="post link to SIOCSIFFLAGS: Operation Not Possible Due to RF Kill" href="https://newdivide2014.github.io/posts/operation-not-possible-due-to-rf-kill/"></a>
-</article>
-    </main>
+  
+  
+    <meta name="author" content="蓝红柿" />
+  
+  
     
-<footer class="footer">
-        <span>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</span> · 
+      <link href="mailto:newdivide2014@outlook.com" rel="me" />
+    
+      <link href="https://www.douyin.com/user/MS4wLjABAAAA4BGZCnH5cCegxZw0O9OGxYqlISEIuJwJPOt6qU1LhZaw0uqYdrf1IlweE-uJNFT7?from_tab_name=main" rel="me" />
+    
+  
+  
+  
 
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        ></a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="z-40 flex flex-row items-center">
+      
+    <a href="/" class="mr-2">
+      
+      <img
+        src="https://newdivide2014.github.io/img/author.jpg"
+        width="3024"
+        height="2012"
+        class="max-h-[10rem] max-w-[10rem] object-scale-down object-left
+        dark:hidden flex"
+        alt="蓝红柿"
+      />
+        <img
+          src="https://newdivide2014.github.io/img/author.jpg"
+          width="3024"
+          height="2012"
+          class="hidden max-h-[10rem] max-w-[10rem] object-scale-down object-left dark:flex"
+          alt="蓝红柿"
+        />
+    </a>
+
+    </div>
+    
+      
+      <label id="menu-button" for="menu-controller" class="block sm:hidden">
+        <input type="checkbox" id="menu-controller" class="hidden" />
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
+        >
+          <ul
+            class="mx-auto flex w-full max-w-7xl list-none flex-col overflow-visible px-6 py-6 text-end sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
+          >
+            <li class="mb-1">
+              <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
+                ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span></span
+              >
+            </li>
+            
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/posts/"
+                      title="Posts"
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >归档</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/tags/"
+                      title="Tags"
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >标签</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/categories/"
+                      title="Categories"
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >分类</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/topics/"
+                      title="Topics"
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >主题</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/about/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >关于</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+              
+            
+          </ul>
+        </div>
+      </label>
+      
+      <ul class="hidden list-none flex-row text-end sm:flex">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/posts/"
+                  title="Posts"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >归档</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/tags/"
+                  title="Tags"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >标签</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/categories/"
+                  title="Categories"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >分类</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/topics/"
+                  title="Topics"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >主题</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/about/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >关于</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+          
+
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  
+  <header>
+    
+      <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="hidden inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="https://newdivide2014.github.io/"
+      ></a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class=" inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="https://newdivide2014.github.io/categories/"
+      >Categories</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="hidden inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="https://newdivide2014.github.io/categories/linux/"
+      >Linux</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Linux</h1>
+  </header>
+  <section
+    class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row"
+  >
+    
+    <div class="min-h-0 min-w-0 max-w-prose grow">
+      
+    </div>
+  </section>
+  
+    <section>
+      
+        
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            2021
+          </h2>
+          <hr class="w-36 border-dotted border-neutral-400" />
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://newdivide2014.github.io/posts/operation-not-possible-due-to-rf-kill/"
+          >SIOCSIFFLAGS: Operation Not Possible Due to RF Kill</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2021-05-11 10:23:30 &#43;0800 CST"></time><span class="px-2 text-primary-500">&middot;</span><span></span><span class="px-2 text-primary-500">&middot;</span><span title=""></span>
+    
+
+    
+    
+  </div>
+
+  
+  
+    <div class="my-1 flex flex-wrap text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">
+      
+        
+          
+            <a
+              href="https://newdivide2014.github.io/categories/linux/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Linux</a
+            >
+          
+        
+      
+        
+      
+        
+          
+            <a
+              href="https://newdivide2014.github.io/tags/wifi/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Wifi</a
+            >
+          
+            <a
+              href="https://newdivide2014.github.io/tags/rf-kill/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >RF-Kill</a
+            >
+          
+        
+      
+        
+      
+    </div>
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+        
+      
+    </section>
+    
+
+  
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label=""
+            title=""
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            本站内容采用 CC BY-NC-SA 4.0 国际许可协议。
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+        <div
+          class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        >
+          <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+            <div
+              class="flex h-12 w-12 items-center justify-center dark:hidden"
+              title=""
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+            </div>
+            <div
+              class="hidden h-12 w-12 items-center justify-center dark:flex"
+              title=""
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+            </div>
+          </button>
+        </div>
+      
+    </div>
+  </div>
+  
+  
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
 
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
+    </div>
+  </body>
 </html>
