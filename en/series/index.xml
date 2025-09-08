@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series on Blue Tomato</title>
+    <link>https://newdivide2014.github.io/en/series/</link>
+    <description>Recent content in Series on Blue Tomato</description>
+    <image>
+      <title>Blue Tomato</title>
+      <url>https://newdivide2014.github.io/author.jpg</url>
+      <link>https://newdivide2014.github.io/author.jpg</link>
+    </image>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <atom:link href="https://newdivide2014.github.io/en/series/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

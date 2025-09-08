@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on 蓝红柿</title>
+    <link>https://newdivide2014.github.io/categories/</link>
+    <description>Recent content in Categories on 蓝红柿</description>
+    <image>
+      <title>蓝红柿</title>
+      <url>https://newdivide2014.github.io/author.jpg</url>
+      <link>https://newdivide2014.github.io/author.jpg</link>
+    </image>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>zh</language>
+    <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
+    <lastBuildDate>Tue, 29 Jul 2025 11:16:33 +0800</lastBuildDate>
+    <atom:link href="https://newdivide2014.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://newdivide2014.github.io/categories/c&#43;&#43;/</link>
+      <pubDate>Tue, 29 Jul 2025 11:16:33 +0800</pubDate>
+      <guid>https://newdivide2014.github.io/categories/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>English Study</title>
+      <link>https://newdivide2014.github.io/categories/english-study/</link>
+      <pubDate>Tue, 18 May 2021 23:55:41 +0800</pubDate>
+      <guid>https://newdivide2014.github.io/categories/english-study/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qt</title>
+      <link>https://newdivide2014.github.io/categories/qt/</link>
+      <pubDate>Tue, 11 May 2021 10:39:18 +0800</pubDate>
+      <guid>https://newdivide2014.github.io/categories/qt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://newdivide2014.github.io/categories/linux/</link>
+      <pubDate>Tue, 11 May 2021 10:23:30 +0800</pubDate>
+      <guid>https://newdivide2014.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>生活</title>
+      <link>https://newdivide2014.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Sat, 08 May 2021 17:30:52 +0800</pubDate>
+      <guid>https://newdivide2014.github.io/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>硬件相关</title>
+      <link>https://newdivide2014.github.io/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/</link>
+      <pubDate>Sat, 08 May 2021 10:51:45 +0800</pubDate>
+      <guid>https://newdivide2014.github.io/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux Cmd</title>
+      <link>https://newdivide2014.github.io/categories/linux-cmd/</link>
+      <pubDate>Sun, 11 Apr 2021 20:12:03 +0800</pubDate>
+      <guid>https://newdivide2014.github.io/categories/linux-cmd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://newdivide2014.github.io/categories/git/</link>
+      <pubDate>Sat, 16 Jan 2021 20:30:40 +0800</pubDate>
+      <guid>https://newdivide2014.github.io/categories/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo Theme</title>
+      <link>https://newdivide2014.github.io/categories/hugo-theme/</link>
+      <pubDate>Sun, 10 Jan 2021 22:28:38 +0800</pubDate>
+      <guid>https://newdivide2014.github.io/categories/hugo-theme/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
